@@ -2,11 +2,20 @@ import { NextResponse } from 'next/server';
 import { AIReportRepository } from '@/repositories/AIReportRepository';
 import { aiQueue } from '@/queues/ai.queue';
 import prisma from '@/lib/prisma';
-import { ReportType } from '@prisma/client';
 import { z } from 'zod';
 
+// Mirror of Prisma ReportType enum — avoids compile-time dependency on generated client
+const ReportType = {
+  PROFILE: 'PROFILE',
+  WEBSITE: 'WEBSITE',
+  COMPETITOR: 'COMPETITOR',
+  OUTREACH: 'OUTREACH',
+  FULL_ANALYSIS: 'FULL_ANALYSIS',
+} as const;
+type ReportType = typeof ReportType[keyof typeof ReportType];
+
 const aiPostSchema = z.object({
-  reportType: z.nativeEnum(ReportType).default(ReportType.FULL_ANALYSIS),
+  reportType: z.enum(['PROFILE', 'WEBSITE', 'COMPETITOR', 'OUTREACH', 'FULL_ANALYSIS']).default('FULL_ANALYSIS'),
 });
 
 const aiReportRepo = new AIReportRepository();
