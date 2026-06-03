@@ -146,7 +146,13 @@ export const gmapsWorker = new Worker(
           await page.waitForSelector('[role="feed"]', { timeout: 8000 }).catch(() => {});
           const feed = await page.$('[role="feed"]');
           let links: string[] = [];
-          const limit = 50;
+          
+          // Calculate a fair quota so we pull equally from all cities/keywords
+          const totalQueries = locationsList.length * keywordsList.length;
+          const currentQueryIndex = (locationIndex * keywordsList.length) + keywordIndex;
+          const remainingQueries = totalQueries - currentQueryIndex;
+          const remainingLeads = target - currentLeads;
+          const limit = Math.max(10, Math.ceil(remainingLeads / remainingQueries));
 
           if (feed) {
             let previousCount = 0;
@@ -198,10 +204,9 @@ export const gmapsWorker = new Worker(
             }
 
             const saturationRatio = estimatedAvailable > 0 ? (currentLeads / estimatedAvailable) : 0;
-            if (saturationRatio >= 0.90) {
-              console.log(`Market Saturation reached (${Math.round(saturationRatio * 100)}%). Stopping search.`);
-              isSaturated = true;
-              break;
+            if (saturationRatio >= 0.95) {
+              console.log(`Market Saturation reached for this location (${Math.round(saturationRatio * 100)}%). Moving to next query.`);
+              break; // Only break the inner loop so it moves to the next city/keyword
             }
 
             try {
