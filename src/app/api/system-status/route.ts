@@ -1,4 +1,7 @@
 import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-dynamic';
+
 import prisma from '@/lib/prisma';
 import redisConnection from '@/lib/redis';
 import { websiteVerificationQueue, ownerDiscoveryQueue, socialDiscoveryQueue } from '@/queues/verification.queue';

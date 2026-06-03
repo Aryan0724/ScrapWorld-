@@ -10,7 +10,10 @@ if (typeof window === 'undefined') {
     if (!connectionString) {
       throw new Error('DATABASE_URL is not defined in environment variables');
     }
-    const pool = new Pool({ connectionString });
+    const pool = new Pool({ 
+      connectionString,
+      ssl: { rejectUnauthorized: false }
+    });
     const adapter = new PrismaPg(pool);
     return new PrismaClient({ adapter });
   };
