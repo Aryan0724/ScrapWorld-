@@ -1,0 +1,1005 @@
+=== SCRAPE WORLD - TOP 100 LEADS V2 REPORT ===
+
+Rank #1 | Score: 88 | Readiness: null/100 | Name: SPARK DENTAL AND IMPLANT CENTRE | Dental Clinic in Delhi |
+  - Industry:      Dental clinic | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       SPARK DENTAL AND IMPLANT CENTRE | Dental Clinic in Delhi | is a Dental clinic in Delhi with a review rating of 4.9/5 across 751 reviews. Opportunity score is 88/100.
+--------------------------------------------------------------------------------
+Rank #2 | Score: 88 | Readiness: null/100 | Name: Bahl dental clinic
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Bahl dental clinic is a Dental clinic in New Delhi, Delhi with a review rating of 4.9/5 across 1263 reviews. Opportunity score is 88/100.
+--------------------------------------------------------------------------------
+Rank #3 | Score: 88 | Readiness: null/100 | Name: Dr. Sandeep Trehan - Trehan ENT Clinic
+  - Industry:      ENT Specialist | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Dr. Sandeep Trehan - Trehan ENT Clinic is a ENT Specialist in New Delhi, Delhi with a review rating of 4.9/5 across 532 reviews. Opportunity score is 88/100.
+--------------------------------------------------------------------------------
+Rank #4 | Score: 86 | Readiness: 56/100 | Name: The Spice Route
+  - Industry:      Asian restaurant | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 90% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       The Spice Route is a Asian restaurant in New Delhi with a review rating of 4.5/5 across 638 reviews. Opportunity score is 86/100.
+--------------------------------------------------------------------------------
+Rank #5 | Score: 84 | Readiness: null/100 | Name: Social Eyes
+  - Industry:      Marketing agency | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       90/100 | Buyer Prob: 80% | Revenue Pot: $3600
+  - Rec. Services: SEO, AUTOMATION, WEBSITE, WEBSITE
+  - Summary:       Social Eyes is a Marketing agency in New Delhi with a review rating of 4.9/5 across 67 reviews. Opportunity score is 84/100.
+--------------------------------------------------------------------------------
+Rank #6 | Score: 83 | Readiness: 52/100 | Name: EK DANT multi speciality dental clinic
+  - Industry:      Orthodontist | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 85% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       EK DANT multi speciality dental clinic is a Orthodontist in New Delhi, Delhi with a review rating of 4.9/5 across 219 reviews. Opportunity score is 83/100.
+--------------------------------------------------------------------------------
+Rank #7 | Score: 83 | Readiness: 74/100 | Name: DDMS - Decoracion Digital Marketing Services Pvt. Ltd.
+  - Industry:      Internet marketing service | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: https://ddms.in (Confidence: 90%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: TWITTER, LINKEDIN, YOUTUBE, INSTAGRAM, FACEBOOK
+  - Urgency:       100/100 | Buyer Prob: 75% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       DDMS - Decoracion Digital Marketing Services Pvt. Ltd. is a Internet marketing service in New Delhi, Delhi with a review rating of 4.9/5 across 363 reviews. Opportunity score is 83/100.
+--------------------------------------------------------------------------------
+Rank #8 | Score: 81 | Readiness: 64/100 | Name: Dr. Rohit Batra | Best Dermatologist & Skin Specialist in Delhi
+  - Industry:      Dermatologist | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: FACEBOOK, YOUTUBE, INSTAGRAM, TWITTER
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Dr. Rohit Batra | Best Dermatologist & Skin Specialist in Delhi is a Dermatologist in Delhi with a review rating of 4.6/5 across 927 reviews. Opportunity score is 81/100.
+--------------------------------------------------------------------------------
+Rank #9 | Score: 81 | Readiness: 64/100 | Name: Dr. Bhutani Dental Impression
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: https://www.drbhutanidentalclinic.com (Confidence: 85%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: TWITTER, FACEBOOK, INSTAGRAM, LINKEDIN, YOUTUBE
+  - Urgency:       75/100 | Buyer Prob: 65% | Revenue Pot: $1800
+  - Rec. Services: WEBSITE, WEBSITE
+  - Summary:       Dr. Bhutani Dental Impression is a Dental clinic in New Delhi, Delhi with a review rating of 4.9/5 across 148 reviews. Opportunity score is 81/100.
+--------------------------------------------------------------------------------
+Rank #10 | Score: 80 | Readiness: 52/100 | Name: Dr Pulkit Arora- Best Plastic, Cosmetic and Burns surgeon
+  - Industry:      Plastic surgeon | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: YOUTUBE, FACEBOOK, INSTAGRAM
+  - Urgency:       70/100 | Buyer Prob: 85% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       Dr Pulkit Arora- Best Plastic, Cosmetic and Burns surgeon is a Plastic surgeon in New Delhi, Delhi with a review rating of 4.9/5 across 298 reviews. Opportunity score is 80/100.
+--------------------------------------------------------------------------------
+Rank #11 | Score: 78 | Readiness: null/100 | Name: Sikka Dental Care
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $2500
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       Sikka Dental Care is a Dental clinic in New Delhi, Delhi with a review rating of 5/5 across 118 reviews. Opportunity score is 78/100.
+--------------------------------------------------------------------------------
+Rank #12 | Score: 78 | Readiness: null/100 | Name: Popli Dental
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Popli Dental is a Dental clinic in New Delhi, Delhi with a review rating of 4.7/5 across 184 reviews. Opportunity score is 78/100.
+--------------------------------------------------------------------------------
+Rank #13 | Score: 78 | Readiness: null/100 | Name: Shrikant Samantara Law Associates Lawyers in Delhi, India for property, immigration, money recovery, and other legal issues.
+  - Industry:      Law firm | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Shrikant Samantara Law Associates Lawyers in Delhi, India for property, immigration, money recovery, and other legal issues. is a Law firm in New Delhi with a review rating of 4.9/5 across 136 reviews. Opportunity score is 78/100.
+--------------------------------------------------------------------------------
+Rank #14 | Score: 78 | Readiness: 80/100 | Name: Century Law Firm
+  - Industry:      Lawyer | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         Advocate Satish Prakash (Role: Owner, Conf: 95%)
+  - Social Profiles: FACEBOOK, TWITTER, YOUTUBE, INSTAGRAM
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Century Law Firm is a Lawyer in Delhi with a review rating of 4.9/5 across 245 reviews. Opportunity score is 78/100.
+--------------------------------------------------------------------------------
+Rank #15 | Score: 78 | Readiness: null/100 | Name: Delhi Dental Station
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $2500
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       Delhi Dental Station is a Dental clinic in New Delhi, Delhi with a review rating of 5/5 across 187 reviews. Opportunity score is 78/100.
+--------------------------------------------------------------------------------
+Rank #16 | Score: 78 | Readiness: null/100 | Name: Divorce Lawyer in Dwarka Delhi (Advocate Pradeep Kumar)
+  - Industry:      Lawyer | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Divorce Lawyer in Dwarka Delhi (Advocate Pradeep Kumar) is a Lawyer in New Delhi, Delhi with a review rating of 4.8/5 across 135 reviews. Opportunity score is 78/100.
+--------------------------------------------------------------------------------
+Rank #17 | Score: 78 | Readiness: null/100 | Name: R & M Law Associates
+  - Industry:      Divorce lawyer | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       R & M Law Associates is a Divorce lawyer in New Delhi, Delhi with a review rating of 4.9/5 across 80 reviews. Opportunity score is 78/100.
+--------------------------------------------------------------------------------
+Rank #18 | Score: 78 | Readiness: null/100 | Name: Dr. Jodhka's Health & Dental Care
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Dr. Jodhka's Health & Dental Care is a Dental clinic in New Delhi, Delhi with a review rating of 4.9/5 across 122 reviews. Opportunity score is 78/100.
+--------------------------------------------------------------------------------
+Rank #19 | Score: 75 | Readiness: 48/100 | Name: Dr Sobti's Dental Care
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 80% | Revenue Pot: $2800
+  - Rec. Services: SEO, WEBSITE, WEBSITE
+  - Summary:       Dr Sobti's Dental Care is a Dental clinic in New Delhi, Delhi with a review rating of 5/5 across 86 reviews. Opportunity score is 75/100.
+--------------------------------------------------------------------------------
+Rank #20 | Score: 75 | Readiness: 48/100 | Name: Grover Dental & Implant Care
+  - Industry:      Dental clinic | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 80% | Revenue Pot: $2800
+  - Rec. Services: SEO, WEBSITE, WEBSITE
+  - Summary:       Grover Dental & Implant Care is a Dental clinic in New Delhi with a review rating of 4.9/5 across 70 reviews. Opportunity score is 75/100.
+--------------------------------------------------------------------------------
+Rank #21 | Score: 75 | Readiness: 82/100 | Name: Dr Popli's Dental Clinic And Implant Centre
+  - Industry:      Dental clinic | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 55%, Source: google-maps-listing)
+  - Owner:         Dr. Sachet Popli (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Dr Popli's Dental Clinic And Implant Centre is a Dental clinic in Delhi with a review rating of 5/5 across 305 reviews. Opportunity score is 75/100.
+--------------------------------------------------------------------------------
+Rank #22 | Score: 75 | Readiness: 85/100 | Name: Dr. Rajat Sachdeva's Dentistry In Ashok Vihar
+  - Industry:      Dental clinic | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 70%, Source: google-maps-listing)
+  - Owner:         Rajat Sachdeva (Role: Owner, Conf: 95%)
+  - Social Profiles: TWITTER, YOUTUBE, LINKEDIN, INSTAGRAM, FACEBOOK
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Dr. Rajat Sachdeva's Dentistry In Ashok Vihar is a Dental clinic in Delhi with a review rating of 4.7/5 across 892 reviews. Opportunity score is 75/100.
+--------------------------------------------------------------------------------
+Rank #23 | Score: 74 | Readiness: null/100 | Name: B Vertex Hair Transplant clinic in Delhi, GFC therapy
+  - Industry:      Hair transplantation clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       90/100 | Buyer Prob: 95% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, WEBSITE, SEO
+  - Summary:       B Vertex Hair Transplant clinic in Delhi, GFC therapy is a Hair transplantation clinic in New Delhi, Delhi with a review rating of 4.5/5 across 189 reviews. Opportunity score is 74/100.
+--------------------------------------------------------------------------------
+Rank #24 | Score: 74 | Readiness: null/100 | Name: Hi Tech Dental | Best Dentist in Delhi
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       90/100 | Buyer Prob: 80% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       Hi Tech Dental | Best Dentist in Delhi is a Dental clinic in New Delhi, Delhi with a review rating of 4.9/5 across 75 reviews. Opportunity score is 74/100.
+--------------------------------------------------------------------------------
+Rank #25 | Score: 74 | Readiness: 56/100 | Name: Daryaganj Restaurant
+  - Industry:      North Indian restaurant | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 45%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 90% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Daryaganj Restaurant is a North Indian restaurant in New Delhi, Delhi with a review rating of 4.7/5 across 1029 reviews. Opportunity score is 74/100.
+--------------------------------------------------------------------------------
+Rank #26 | Score: 73 | Readiness: 56/100 | Name: Vikas Real Estate. Unit of Nangia Real Estate
+  - Industry:      Real estate consultant | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 25%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: FACEBOOK, INSTAGRAM, LINKEDIN
+  - Urgency:       60/100 | Buyer Prob: 90% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Vikas Real Estate. Unit of Nangia Real Estate is a Real estate consultant in New Delhi, Delhi with a review rating of 4.9/5 across 57 reviews. Opportunity score is 73/100.
+--------------------------------------------------------------------------------
+Rank #27 | Score: 73 | Readiness: 56/100 | Name: Furious Digital Marketers- Social Media & Digital Marketing Agency in Delhi
+  - Industry:      Internet marketing service | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 55%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: INSTAGRAM, LINKEDIN, TWITTER, FACEBOOK
+  - Urgency:       60/100 | Buyer Prob: 90% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Furious Digital Marketers- Social Media & Digital Marketing Agency in Delhi is a Internet marketing service in New Delhi, Delhi with a review rating of 5/5 across 73 reviews. Opportunity score is 73/100.
+--------------------------------------------------------------------------------
+Rank #28 | Score: 73 | Readiness: 65/100 | Name: 24/7 Restaurant - New Delhi
+  - Industry:      Restaurant | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: INSTAGRAM, TWITTER, LINKEDIN, YOUTUBE, FACEBOOK
+  - Urgency:       60/100 | Buyer Prob: 90% | Revenue Pot: $1300
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       24/7 Restaurant - New Delhi is a Restaurant in New Delhi with a review rating of 4.6/5 across 82 reviews. Opportunity score is 73/100.
+--------------------------------------------------------------------------------
+Rank #29 | Score: 73 | Readiness: 63/100 | Name: S.B Dental Clinic
+  - Industry:      Dental clinic | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: https://drsudhirbhalla.getmy.clinic (Confidence: 80%, Source: google-maps-listing)
+  - Owner:         Dr. Sudhir Bhalla (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: None
+  - Urgency:       25/100 | Buyer Prob: 85% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       S.B Dental Clinic is a Dental clinic in Delhi with a review rating of 4.8/5 across 271 reviews. Opportunity score is 73/100.
+--------------------------------------------------------------------------------
+Rank #30 | Score: 73 | Readiness: 56/100 | Name: Viral Ads Media - Digital Marketing Agency in Delhi | Social Media Agency in Delhi | Website Designing Agency in Delhi.
+  - Industry:      Marketing agency | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: YOUTUBE, INSTAGRAM, FACEBOOK, LINKEDIN
+  - Urgency:       60/100 | Buyer Prob: 90% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Viral Ads Media - Digital Marketing Agency in Delhi | Social Media Agency in Delhi | Website Designing Agency in Delhi. is a Marketing agency in Delhi with a review rating of 4.9/5 across 100 reviews. Opportunity score is 73/100.
+--------------------------------------------------------------------------------
+Rank #31 | Score: 72 | Readiness: null/100 | Name: Rehab N Recovery physiotherapy clinic
+  - Industry:      Physiotherapist | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Rehab N Recovery physiotherapy clinic is a Physiotherapist in New Delhi, Delhi with a review rating of 5/5 across 27 reviews. Opportunity score is 72/100.
+--------------------------------------------------------------------------------
+Rank #32 | Score: 72 | Readiness: null/100 | Name: Qureshi Fine Dental Clinic
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       Qureshi Fine Dental Clinic is a Dental clinic in New Delhi, Delhi with a review rating of 5/5 across 22 reviews. Opportunity score is 72/100.
+--------------------------------------------------------------------------------
+Rank #33 | Score: 72 | Readiness: null/100 | Name: SAYA Associates Advocates & solicitors | Best Criminal, Civil, Matrimonial, Divorce and dowery Lawyer in Delhi
+  - Industry:      Law firm | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       SAYA Associates Advocates & solicitors | Best Criminal, Civil, Matrimonial, Divorce and dowery Lawyer in Delhi is a Law firm in Delhi with a review rating of 4.9/5 across 41 reviews. Opportunity score is 72/100.
+--------------------------------------------------------------------------------
+Rank #34 | Score: 72 | Readiness: null/100 | Name: Services Available At Clinic
+  - Industry:      Medical clinic | City: Subhash Nagar, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       Services Available At Clinic is a Medical clinic in Subhash Nagar, Delhi with a review rating of 4.7/5 across 12 reviews. Opportunity score is 72/100.
+--------------------------------------------------------------------------------
+Rank #35 | Score: 72 | Readiness: null/100 | Name: Sharma Associates Advocate & Legal Consultant - Best Advocate in West Delhi
+  - Industry:      Legal services | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Sharma Associates Advocate & Legal Consultant - Best Advocate in West Delhi is a Legal services in New Delhi, Delhi with a review rating of 4.9/5 across 42 reviews. Opportunity score is 72/100.
+--------------------------------------------------------------------------------
+Rank #36 | Score: 72 | Readiness: null/100 | Name: Delhi smile dental clinic
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Delhi smile dental clinic is a Dental clinic in New Delhi, Delhi with a review rating of 4.9/5 across 46 reviews. Opportunity score is 72/100.
+--------------------------------------------------------------------------------
+Rank #37 | Score: 72 | Readiness: null/100 | Name: Dr. Chopra's Dental Centre
+  - Industry:      Dentist | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       Dr. Chopra's Dental Centre is a Dentist in New Delhi, Delhi with a review rating of 5/5 across 12 reviews. Opportunity score is 72/100.
+--------------------------------------------------------------------------------
+Rank #38 | Score: 72 | Readiness: null/100 | Name: Sahil Kakkar Advocate (Sahil Kakkar & Associates - Advocates & Solicitors)
+  - Industry:      Law firm | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Sahil Kakkar Advocate (Sahil Kakkar & Associates - Advocates & Solicitors) is a Law firm in New Delhi, Delhi with a review rating of 4.9/5 across 46 reviews. Opportunity score is 72/100.
+--------------------------------------------------------------------------------
+Rank #39 | Score: 72 | Readiness: 70/100 | Name: Varun Attri Unisex Salon | Makeup | Academy in Naraina, New Delhi
+  - Industry:      Beauty Parlour | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: INSTAGRAM, FACEBOOK
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Varun Attri Unisex Salon | Makeup | Academy in Naraina, New Delhi is a Beauty Parlour in New Delhi with a review rating of 4.7/5 across 2811 reviews. Opportunity score is 72/100.
+--------------------------------------------------------------------------------
+Rank #40 | Score: 72 | Readiness: null/100 | Name: Divine Homeo Care Clinic
+  - Industry:      Homeopath | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       Divine Homeo Care Clinic is a Homeopath in New Delhi, Delhi with a review rating of 5/5 across 25 reviews. Opportunity score is 72/100.
+--------------------------------------------------------------------------------
+Rank #41 | Score: 72 | Readiness: null/100 | Name: Elegance Wellness – Hair Removal & Fat Reduction Experts
+  - Industry:      Skin care clinic | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Elegance Wellness – Hair Removal & Fat Reduction Experts is a Skin care clinic in Delhi with a review rating of 4.3/5 across 31 reviews. Opportunity score is 72/100.
+--------------------------------------------------------------------------------
+Rank #42 | Score: 71 | Readiness: 61/100 | Name: Bright Smile
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: https://brightsmile.co.in (Confidence: 100%, Source: google-maps-listing)
+  - Owner:         Dr. Choshu Rajput (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: FACEBOOK, INSTAGRAM
+  - Urgency:       10/100 | Buyer Prob: 85% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Bright Smile is a Dental clinic in New Delhi, Delhi with a review rating of 5/5 across 298 reviews. Opportunity score is 71/100.
+--------------------------------------------------------------------------------
+Rank #43 | Score: 71 | Readiness: 64/100 | Name: Dr Kathuria's Dental Specialities
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: https://drkathurias.com (Confidence: 90%, Source: google-maps-listing)
+  - Owner:         Dr. Katurias Specialist (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: FACEBOOK, INSTAGRAM
+  - Urgency:       10/100 | Buyer Prob: 90% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Dr Kathuria's Dental Specialities is a Dental clinic in New Delhi, Delhi with a review rating of 4.9/5 across 511 reviews. Opportunity score is 71/100.
+--------------------------------------------------------------------------------
+Rank #44 | Score: 71 | Readiness: 62/100 | Name: Muskaan Dental Clinic
+  - Industry:      Dentist | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: http://www.muskaanclinics.com (Confidence: 90%, Source: google-maps-listing)
+  - Owner:         Dr. Gaurav Goel (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: TWITTER, FACEBOOK, LINKEDIN, YOUTUBE
+  - Urgency:       10/100 | Buyer Prob: 85% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Muskaan Dental Clinic is a Dentist in Delhi with a review rating of 4.9/5 across 394 reviews. Opportunity score is 71/100.
+--------------------------------------------------------------------------------
+Rank #45 | Score: 70 | Readiness: 69/100 | Name: Hair Masters Luxury Salon
+  - Industry:      Beauty Parlour | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: INSTAGRAM
+  - Urgency:       60/100 | Buyer Prob: 90% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Hair Masters Luxury Salon is a Beauty Parlour in New Delhi, Delhi with a review rating of 4.2/5 across 807 reviews. Opportunity score is 70/100.
+--------------------------------------------------------------------------------
+Rank #46 | Score: 65 | Readiness: 40/100 | Name: Digital Marketing King - Best Web Designing & Digital Marketing Agency in Delhi
+  - Industry:      Advertising agency | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: https://digitalmarketingking.in (Confidence: 100%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: INSTAGRAM, FACEBOOK, TWITTER, LINKEDIN
+  - Urgency:       10/100 | Buyer Prob: 65% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Digital Marketing King - Best Web Designing & Digital Marketing Agency in Delhi is a Advertising agency in New Delhi with a review rating of 4.9/5 across 68 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #47 | Score: 70 | Readiness: null/100 | Name: Surgeon's Clinic
+  - Industry:      Medical clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Surgeon's Clinic is a Medical clinic in New Delhi, Delhi with a review rating of 3.3/5 across 29 reviews. Opportunity score is 70/100.
+--------------------------------------------------------------------------------
+Rank #48 | Score: 70 | Readiness: 64/100 | Name: The Indian Grill Restaurant Delhi
+  - Industry:      Restaurant | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 55%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 85% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       The Indian Grill Restaurant Delhi is a Restaurant in New Delhi with a review rating of 4.2/5 across 460 reviews. Opportunity score is 70/100.
+--------------------------------------------------------------------------------
+Rank #49 | Score: 70 | Readiness: null/100 | Name: Advocate Anupam KirtiIMoney Recovery Lawyer in DelhiICheque Bounce Lawyer in DelhiIBail Lawyer in Delhi
+  - Industry:      Lawyer | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       90/100 | Buyer Prob: 80% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       Advocate Anupam KirtiIMoney Recovery Lawyer in DelhiICheque Bounce Lawyer in DelhiIBail Lawyer in Delhi is a Lawyer in New Delhi with a review rating of 5/5 across 29 reviews. Opportunity score is 70/100.
+--------------------------------------------------------------------------------
+Rank #50 | Score: 70 | Readiness: null/100 | Name: Branding Wall | Digital Marketing Agency in Delhi | SEO Expert | Social Media Expert | Graphic Design Expert
+  - Industry:      Marketing agency | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       90/100 | Buyer Prob: 80% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       Branding Wall | Digital Marketing Agency in Delhi | SEO Expert | Social Media Expert | Graphic Design Expert is a Marketing agency in New Delhi with a review rating of 4.8/5 across 12 reviews. Opportunity score is 70/100.
+--------------------------------------------------------------------------------
+Rank #51 | Score: 70 | Readiness: null/100 | Name: ADVOCATE KARAN BAJAJ
+  - Industry:      Legal services | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       90/100 | Buyer Prob: 80% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       ADVOCATE KARAN BAJAJ is a Legal services in New Delhi, Delhi with a review rating of 5/5 across 16 reviews. Opportunity score is 70/100.
+--------------------------------------------------------------------------------
+Rank #52 | Score: 70 | Readiness: null/100 | Name: Aevum Aesthetics
+  - Industry:      Laser hair removal service | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       90/100 | Buyer Prob: 80% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       Aevum Aesthetics is a Laser hair removal service in New Delhi, Delhi with a review rating of 4.8/5 across 11 reviews. Opportunity score is 70/100.
+--------------------------------------------------------------------------------
+Rank #53 | Score: 70 | Readiness: null/100 | Name: Bawa Associates Advocates & Consultants Best Matrimonial- Divorce Lawyer
+  - Industry:      Divorce lawyer | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       90/100 | Buyer Prob: 80% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       Bawa Associates Advocates & Consultants Best Matrimonial- Divorce Lawyer is a Divorce lawyer in New Delhi, Delhi with a review rating of 4.9/5 across 37 reviews. Opportunity score is 70/100.
+--------------------------------------------------------------------------------
+Rank #54 | Score: 69 | Readiness: 61/100 | Name: Grow with arpit
+  - Industry:      Gym | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 50%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: TWITTER, TIKTOK, YOUTUBE, INSTAGRAM
+  - Urgency:       60/100 | Buyer Prob: 90% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Grow with arpit is a Gym in Delhi with a review rating of 5/5 across 155 reviews. Opportunity score is 69/100.
+--------------------------------------------------------------------------------
+Rank #55 | Score: 69 | Readiness: 53/100 | Name: Focus Dental Clinic
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: https://www.focusdentalindia.com (Confidence: 100%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: FACEBOOK, INSTAGRAM
+  - Urgency:       30/100 | Buyer Prob: 75% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Focus Dental Clinic is a Dental clinic in New Delhi, Delhi with a review rating of 4.9/5 across 1276 reviews. Opportunity score is 69/100.
+--------------------------------------------------------------------------------
+Rank #56 | Score: 69 | Readiness: 86/100 | Name: Smile Dental Hub
+  - Industry:      Dental clinic | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 30%, Source: google-maps-listing)
+  - Owner:         Dr. Abhay PandeyCall UsReview (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: FACEBOOK, INSTAGRAM, TIKTOK
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Smile Dental Hub is a Dental clinic in New Delhi with a review rating of 4.9/5 across 227 reviews. Opportunity score is 69/100.
+--------------------------------------------------------------------------------
+Rank #57 | Score: 68 | Readiness: 45/100 | Name: Stunning Dentistry
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: https://www.stunningdentistry.com (Confidence: 85%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: FACEBOOK, LINKEDIN, TWITTER, INSTAGRAM, YOUTUBE
+  - Urgency:       10/100 | Buyer Prob: 70% | Revenue Pot: $1800
+  - Rec. Services: WEBSITE, WEBSITE
+  - Summary:       Stunning Dentistry is a Dental clinic in New Delhi, Delhi with a review rating of 4.6/5 across 460 reviews. Opportunity score is 68/100.
+--------------------------------------------------------------------------------
+Rank #58 | Score: 68 | Readiness: 54/100 | Name: Pro Ultimate Gyms - Jail Road, New Delhi
+  - Industry:      Gym | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 70%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: INSTAGRAM, FACEBOOK, YOUTUBE
+  - Urgency:       60/100 | Buyer Prob: 75% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Pro Ultimate Gyms - Jail Road, New Delhi is a Gym in New Delhi, Delhi with a review rating of 5/5 across 6 reviews. Opportunity score is 68/100.
+--------------------------------------------------------------------------------
+Rank #59 | Score: 68 | Readiness: 55/100 | Name: The Wellness Club Gym Xpress Mansarover garden
+  - Industry:      Fitness center | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 75%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 85% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       The Wellness Club Gym Xpress Mansarover garden is a Fitness center in New Delhi, Delhi with a review rating of 4.7/5 across 12 reviews. Opportunity score is 68/100.
+--------------------------------------------------------------------------------
+Rank #60 | Score: 68 | Readiness: 52/100 | Name: Cult Gym Moti Nagar | Best Gym in Moti Nagar, Delhi
+  - Industry:      Gym | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: YOUTUBE, FACEBOOK, TWITTER, INSTAGRAM, LINKEDIN
+  - Urgency:       60/100 | Buyer Prob: 75% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Cult Gym Moti Nagar | Best Gym in Moti Nagar, Delhi is a Gym in Delhi with a review rating of 4.4/5 across 259 reviews. Opportunity score is 68/100.
+--------------------------------------------------------------------------------
+Rank #61 | Score: 68 | Readiness: 64/100 | Name: Alisha's Empire Salon -Permanent Hair Extensions in Rajouri garden | Best Makeup salon in Rajouri garden | Best Salon |
+  - Industry:      Beauty Parlour | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 60%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: INSTAGRAM
+  - Urgency:       70/100 | Buyer Prob: 90% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, WEBSITE, SEO
+  - Summary:       Alisha's Empire Salon -Permanent Hair Extensions in Rajouri garden | Best Makeup salon in Rajouri garden | Best Salon | is a Beauty Parlour in New Delhi, Delhi with a review rating of 4.5/5 across 684 reviews. Opportunity score is 68/100.
+--------------------------------------------------------------------------------
+Rank #62 | Score: 68 | Readiness: 67/100 | Name: Dr. Sushant Umre
+  - Industry:      Dental clinic | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 20%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Dr. Sushant Umre is a Dental clinic in New Delhi with a review rating of 5/5 across 780 reviews. Opportunity score is 68/100.
+--------------------------------------------------------------------------------
+Rank #63 | Score: 68 | Readiness: 55/100 | Name: Malhotra Dental Care Centre
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: https://pro.unogreencard.com/SHJZWE (Confidence: 90%, Source: google-maps-listing)
+  - Owner:         Dr. Ashwani Malhotra (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: INSTAGRAM
+  - Urgency:       10/100 | Buyer Prob: 80% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Malhotra Dental Care Centre is a Dental clinic in New Delhi, Delhi with a review rating of 4.7/5 across 111 reviews. Opportunity score is 68/100.
+--------------------------------------------------------------------------------
+Rank #64 | Score: 67 | Readiness: 67/100 | Name: Thyme Restaurant - The Umrao
+  - Industry:      Fine dining restaurant | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 50%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: LINKEDIN, FACEBOOK, INSTAGRAM
+  - Urgency:       60/100 | Buyer Prob: 90% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Thyme Restaurant - The Umrao is a Fine dining restaurant in New Delhi with a review rating of 4.5/5 across 849 reviews. Opportunity score is 67/100.
+--------------------------------------------------------------------------------
+Rank #65 | Score: 67 | Readiness: 79/100 | Name: Tooth Dental & Orofacial Clinic| Laser RCT| Invisalign| Implant | TMJ Disorder| Best Dentist Vasundhara Enclave
+  - Industry:      Dentist | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: google-maps-listing)
+  - Owner:         Dr. Jyoti Ahlawat (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Tooth Dental & Orofacial Clinic| Laser RCT| Invisalign| Implant | TMJ Disorder| Best Dentist Vasundhara Enclave is a Dentist in New Delhi, Delhi with a review rating of 4.9/5 across 877 reviews. Opportunity score is 67/100.
+--------------------------------------------------------------------------------
+Rank #66 | Score: 67 | Readiness: 67/100 | Name: Kalyani Dental Clinic ( OPG & Implant Centre)
+  - Industry:      Dentist | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 75%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: YOUTUBE
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Kalyani Dental Clinic ( OPG & Implant Centre) is a Dentist in Delhi with a review rating of 4.9/5 across 654 reviews. Opportunity score is 67/100.
+--------------------------------------------------------------------------------
+Rank #67 | Score: 67 | Readiness: 80/100 | Name: Tooth and Gum Clinic
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 70%, Source: google-maps-listing)
+  - Owner:         Paresh Kale (Role: Managing Director, Conf: 95%)
+  - Social Profiles: INSTAGRAM, YOUTUBE
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Tooth and Gum Clinic is a Dental clinic in New Delhi, Delhi with a review rating of 4.8/5 across 70 reviews. Opportunity score is 67/100.
+--------------------------------------------------------------------------------
+Rank #68 | Score: 66 | Readiness: 68/100 | Name: Raw Fitness Garage Gym
+  - Industry:      Gym | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 55%, Source: google-maps-listing)
+  - Owner:         row justify (Role: Managing Director, Conf: 95%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Raw Fitness Garage Gym is a Gym in New Delhi, Delhi with a review rating of 4.8/5 across 142 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #69 | Score: 66 | Readiness: 64/100 | Name: Jain Dental Centre - Dental Clinic in East Delhi | Dentist in East Delhi | Dentology Clinic in Delhi
+  - Industry:      Dental clinic | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: FACEBOOK, TWITTER, INSTAGRAM, LINKEDIN, YOUTUBE
+  - Urgency:       60/100 | Buyer Prob: 85% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Jain Dental Centre - Dental Clinic in East Delhi | Dentist in East Delhi | Dentology Clinic in Delhi is a Dental clinic in Delhi with a review rating of 4.7/5 across 426 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #70 | Score: 66 | Readiness: 85/100 | Name: Clove Dental Clinic - Vasundhara Enclave, Delhi
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         Dr. Ajay Sangwan (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: YOUTUBE, INSTAGRAM, FACEBOOK, TWITTER, LINKEDIN
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Clove Dental Clinic - Vasundhara Enclave, Delhi is a Dental clinic in New Delhi, Delhi with a review rating of 4.9/5 across 1041 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #71 | Score: 66 | Readiness: 44/100 | Name: NSalon - Patel Nagar, New Delhi
+  - Industry:      Beauty Parlour | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: https://nearby.nsalon.in/patel-nagar-new-delhi-47377/home (Confidence: 85%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: INSTAGRAM
+  - Urgency:       30/100 | Buyer Prob: 65% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       NSalon - Patel Nagar, New Delhi is a Beauty Parlour in New Delhi with a review rating of 4.6/5 across 132 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #72 | Score: 66 | Readiness: 85/100 | Name: Clove Dental Clinic - Daryaganj, Delhi
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         Dr. Ajay Sangwan (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: INSTAGRAM, FACEBOOK, TWITTER, YOUTUBE, LINKEDIN
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Clove Dental Clinic - Daryaganj, Delhi is a Dental clinic in New Delhi, Delhi with a review rating of 4.9/5 across 945 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #73 | Score: 66 | Readiness: 85/100 | Name: Clove Dental Clinic - Nizamuddin West, Delhi
+  - Industry:      Dental clinic | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         Dr. Ajay Sangwan (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: YOUTUBE, INSTAGRAM, FACEBOOK, TWITTER, LINKEDIN
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Clove Dental Clinic - Nizamuddin West, Delhi is a Dental clinic in New Delhi with a review rating of 4.9/5 across 714 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #74 | Score: 66 | Readiness: 85/100 | Name: Clove Dental Clinic - Patparganj, Delhi
+  - Industry:      Dental clinic | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         Dr. Ajay Sangwan (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: INSTAGRAM, FACEBOOK, TWITTER, YOUTUBE, LINKEDIN
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Clove Dental Clinic - Patparganj, Delhi is a Dental clinic in Delhi with a review rating of 4.9/5 across 824 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #75 | Score: 66 | Readiness: 85/100 | Name: Clove Dental Clinic - Meenakshi Garden, Delhi
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         Dr. Ajay Sangwan (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: INSTAGRAM, FACEBOOK, TWITTER, YOUTUBE, LINKEDIN
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Clove Dental Clinic - Meenakshi Garden, Delhi is a Dental clinic in New Delhi, Delhi with a review rating of 4.9/5 across 901 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #76 | Score: 66 | Readiness: 85/100 | Name: Clove Dental Clinic - Rajouri Garden, Delhi
+  - Industry:      Dental clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         Dr. Ajay Sangwan (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: INSTAGRAM, FACEBOOK, TWITTER, YOUTUBE, LINKEDIN
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Clove Dental Clinic - Rajouri Garden, Delhi is a Dental clinic in New Delhi, Delhi with a review rating of 4.9/5 across 978 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #77 | Score: 66 | Readiness: 85/100 | Name: Kailash Dental (on Panel CGHS,DGEHS,MCD,DJB,ICAR)
+  - Industry:      Dental clinic | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 55%, Source: google-maps-listing)
+  - Owner:         Dr. Karan Khurana
+	
+		
+			Dr (Role: Clinic Owner & Dentist, Conf: 95%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Kailash Dental (on Panel CGHS,DGEHS,MCD,DJB,ICAR) is a Dental clinic in New Delhi with a review rating of 4.9/5 across 545 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #78 | Score: 66 | Readiness: 62/100 | Name: Bistro 55 Roof Top Restaurant
+  - Industry:      Bistro | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 90% | Revenue Pot: $3300
+  - Rec. Services: WEBSITE, SEO, AUTOMATION
+  - Summary:       Bistro 55 Roof Top Restaurant is a Bistro in New Delhi with a review rating of 4.6/5 across 935 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #79 | Score: 66 | Readiness: 52/100 | Name: Eludication, Advocates & Legal Consultants
+  - Industry:      Law firm | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: FACEBOOK, LINKEDIN
+  - Urgency:       60/100 | Buyer Prob: 85% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Eludication, Advocates & Legal Consultants is a Law firm in New Delhi, Delhi with a review rating of 4.9/5 across 43 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #80 | Score: 66 | Readiness: 48/100 | Name: Hair Zone Salon - Rajouri Garden
+  - Industry:      Beauty Parlour | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Hair Zone Salon - Rajouri Garden is a Beauty Parlour in Delhi with a review rating of 4.8/5 across 172 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #81 | Score: 66 | Readiness: 48/100 | Name: JMD Real Estate
+  - Industry:      Real estate agency | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 25%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       JMD Real Estate is a Real estate agency in New Delhi, Delhi with a review rating of 5/5 across 141 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #82 | Score: 66 | Readiness: 79/100 | Name: DERMAWORLD SKIN & HAIR CLINICS
+  - Industry:      Skin care clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 65%, Source: google-maps-listing)
+  - Owner:         Rohit Batra (Role: Owner, Conf: 95%)
+  - Social Profiles: YOUTUBE, FACEBOOK, TWITTER
+  - Urgency:       60/100 | Buyer Prob: 95% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       DERMAWORLD SKIN & HAIR CLINICS is a Skin care clinic in New Delhi, Delhi with a review rating of 4.3/5 across 114 reviews. Opportunity score is 66/100.
+--------------------------------------------------------------------------------
+Rank #83 | Score: 65 | Readiness: 73/100 | Name: Dum Pukht
+  - Industry:      Awadhi Restaurant | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 55%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: INSTAGRAM, LINKEDIN, FACEBOOK, YOUTUBE, TWITTER
+  - Urgency:       60/100 | Buyer Prob: 90% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Dum Pukht is a Awadhi Restaurant in New Delhi with a review rating of 4.4/5 across 1208 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #84 | Score: 65 | Readiness: 62/100 | Name: The Sallure Luxury Salon
+  - Industry:      Beauty Parlour | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 90% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       The Sallure Luxury Salon is a Beauty Parlour in New Delhi with a review rating of 4.9/5 across 598 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #85 | Score: 65 | Readiness: 62/100 | Name: Zuba Men’s Grooming Salon
+  - Industry:      Barber shop | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 90% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       Zuba Men’s Grooming Salon is a Barber shop in New Delhi, Delhi with a review rating of 4.8/5 across 960 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #86 | Score: 65 | Readiness: 65/100 | Name: Vishesh Properties
+  - Industry:      Real estate consultant | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 55%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: FACEBOOK, TWITTER, LINKEDIN, INSTAGRAM
+  - Urgency:       60/100 | Buyer Prob: 90% | Revenue Pot: $1500
+  - Rec. Services: N/A
+  - Summary:       Vishesh Properties is a Real estate consultant in Delhi with a review rating of 4.9/5 across 111 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #87 | Score: 65 | Readiness: 55/100 | Name: Best Real Estate Agent in North Delhi Sachdeva Realestate
+  - Industry:      Real Estate Builders & Construction Company | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 60%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 85% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Best Real Estate Agent in North Delhi Sachdeva Realestate is a Real Estate Builders & Construction Company in New Delhi, Delhi with a review rating of 5/5 across 28 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #88 | Score: 65 | Readiness: 62/100 | Name: Delhi 'O' Delhi
+  - Industry:      Buffet restaurant | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 90% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       Delhi 'O' Delhi is a Buffet restaurant in New Delhi with a review rating of 4.5/5 across 2519 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #89 | Score: 65 | Readiness: 36/100 | Name: Sanjeev Manchanda Advocate Supreme Court of India
+  - Industry:      Lawyer | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 70/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 65% | Revenue Pot: $2500
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       Sanjeev Manchanda Advocate Supreme Court of India is a Lawyer in New Delhi, Delhi with a review rating of 4.7/5 across 37 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #90 | Score: 65 | Readiness: null/100 | Name: Shubham Homeopathic Clinic
+  - Industry:      Medical clinic | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       Shubham Homeopathic Clinic is a Medical clinic in Delhi with a review rating of 0/5 across 0 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #91 | Score: 65 | Readiness: null/100 | Name: D. R. Sachdeva Clinic
+  - Industry:      Medical clinic | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       D. R. Sachdeva Clinic is a Medical clinic in New Delhi, Delhi with a review rating of 0/5 across 0 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #92 | Score: 65 | Readiness: 62/100 | Name: THE SALON
+  - Industry:      Beauty Parlour | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 90% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       THE SALON is a Beauty Parlour in Delhi with a review rating of 4.8/5 across 2496 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #93 | Score: 65 | Readiness: null/100 | Name: Soni clinic
+  - Industry:      Medical clinic | City: Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 80% | Revenue Pot: $2500
+  - Rec. Services: WEBSITE, SEO
+  - Summary:       Soni clinic is a Medical clinic in Delhi with a review rating of 3.3/5 across 4 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #94 | Score: 65 | Readiness: null/100 | Name: Dr Ajay Sahdev
+  - Industry:      Doctor | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: null/100
+  - Website Verified: None (Confidence: null%, Source: null)
+  - Owner:         None (Role: None, Conf: null%)
+  - Social Profiles: None
+  - Urgency:       90/100 | Buyer Prob: 80% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       Dr Ajay Sahdev is a Doctor in New Delhi, Delhi with a review rating of 5/5 across 9 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #95 | Score: 65 | Readiness: 62/100 | Name: Cafe Delhi Heights
+  - Industry:      Cafe | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 80% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       Cafe Delhi Heights is a Cafe in New Delhi, Delhi with a review rating of 4.2/5 across 1434 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #96 | Score: 65 | Readiness: 59/100 | Name: Property Dealer in Karol Bagh
+  - Industry:      Real estate consultant | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 75%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       60/100 | Buyer Prob: 90% | Revenue Pot: $800
+  - Rec. Services: AUTOMATION
+  - Summary:       Property Dealer in Karol Bagh is a Real estate consultant in New Delhi, Delhi with a review rating of 4.6/5 across 152 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #97 | Score: 65 | Readiness: 62/100 | Name: Dentzz Dental
+  - Industry:      Dental clinic | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 90% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, SEO, WEBSITE
+  - Summary:       Dentzz Dental is a Dental clinic in New Delhi with a review rating of 4.9/5 across 716 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #98 | Score: 65 | Readiness: 62/100 | Name: Salon9teen
+  - Industry:      Beauty Parlour | City: New Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 90% | Revenue Pot: $2800
+  - Rec. Services: WEBSITE, WEBSITE, SEO
+  - Summary:       Salon9teen is a Beauty Parlour in New Delhi with a review rating of 4.9/5 across 788 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #99 | Score: 65 | Readiness: 40/100 | Name: Nagpal Properties
+  - Industry:      Real estate agency | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: http://www.nagpalproperties.co.in (Confidence: 100%, Source: google-maps-listing)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: INSTAGRAM, LINKEDIN, FACEBOOK
+  - Urgency:       10/100 | Buyer Prob: 65% | Revenue Pot: $1000
+  - Rec. Services: SEO
+  - Summary:       Nagpal Properties is a Real estate agency in New Delhi, Delhi with a review rating of 4.8/5 across 51 reviews. Opportunity score is 65/100.
+--------------------------------------------------------------------------------
+Rank #100 | Score: 64 | Readiness: 59/100 | Name: Sequence Salon
+  - Industry:      Beauty Parlour | City: New Delhi, Delhi
+  - Enterprise:    false | Franchise: false | Suitability: 100/100
+  - Website Verified: None (Confidence: 0%, Source: none)
+  - Owner:         None (Role: None, Conf: 0%)
+  - Social Profiles: None
+  - Urgency:       70/100 | Buyer Prob: 75% | Revenue Pot: $2500
+  - Rec. Services: SEO, WEBSITE
+  - Summary:       Sequence Salon is a Beauty Parlour in New Delhi, Delhi with a review rating of 4/5 across 251 reviews. Opportunity score is 64/100.
+--------------------------------------------------------------------------------
