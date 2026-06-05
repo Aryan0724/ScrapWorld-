@@ -89,7 +89,7 @@ async function main() {
   // Stage Probability (PROPOSAL) = 70
   // Buyer Probability = leadIntel.buyerProbability
   // winConfidence = Math.round((70 + buyerProbability) / 2)
-  const expectedProposalProb = Math.round((70 + leadIntel.buyerProbability) / 2);
+  const expectedProposalProb = Math.round((70 + (leadIntel.buyerProbability || 0)) / 2);
   console.log(`Verifying Proposal Probability: Expected = ${expectedProposalProb}%, Actual = ${updatedDeal.probability}%`);
   if (updatedDeal.probability !== expectedProposalProb) {
     throw new Error(`FAIL: Proposal probability calculation incorrect. Expected ${expectedProposalProb}, got ${updatedDeal.probability}`);
