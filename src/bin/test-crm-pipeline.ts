@@ -36,8 +36,7 @@ async function main() {
   console.log('Lead Intelligence metrics:');
   console.log(`  - Lead Score: ${leadIntel.leadScore}`);
   console.log(`  - Lead Tier: ${leadIntel.leadTier}`);
-  console.log(`  - Urgency Score: ${leadIntel.urgencyScore}`);
-  console.log(`  - Buyer Probability: ${leadIntel.buyerProbability}%`);
+  console.log(`✅  Score: ${leadIntel.opportunityScore || 0}/100 | Buyer Prob: ${leadIntel.buyerProbability || 0}%`);
   console.log(`  - Estimated Deal Value: $${leadIntel.estimatedDealValue}`);
 
   // 4. Auto-generate Deal from Lead
@@ -65,7 +64,7 @@ async function main() {
   // Stage Probability (NEW) = 10
   // Buyer Probability = leadIntel.buyerProbability
   // winConfidence = Math.round((10 + buyerProbability) / 2)
-  const expectedNewProb = Math.round((10 + leadIntel.buyerProbability) / 2);
+  const expectedNewProb = Math.round((10 + (leadIntel.buyerProbability || 0)) / 2);
   console.log(`Verifying Initial Probability: Expected = ${expectedNewProb}%, Actual = ${deal.probability}%`);
   if (deal.probability !== expectedNewProb) {
     throw new Error(`FAIL: Initial probability calculation incorrect. Expected ${expectedNewProb}, got ${deal.probability}`);

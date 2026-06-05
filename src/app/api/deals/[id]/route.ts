@@ -10,6 +10,8 @@ const updateDealSchema = z.object({
   title: z.string().min(1).optional(),
   value: z.number().positive().optional(),
   expectedCloseDate: z.string().datetime().optional().nullable(),
+  outreachChannel: z.enum(['EMAIL', 'WHATSAPP', 'PHONE', 'LINKEDIN', 'INSTAGRAM']).optional().nullable(),
+  outreachOutcome: z.enum(['NONE', 'NO_RESPONSE', 'INTERESTED', 'NOT_INTERESTED']).optional(),
 });
 
 export async function GET(
@@ -78,6 +80,8 @@ export async function PATCH(
     if (validated.expectedCloseDate !== undefined) {
       updateData.expectedCloseDate = validated.expectedCloseDate ? new Date(validated.expectedCloseDate) : null;
     }
+    if (validated.outreachChannel !== undefined) updateData.outreachChannel = validated.outreachChannel;
+    if (validated.outreachOutcome !== undefined) updateData.outreachOutcome = validated.outreachOutcome;
 
     const deal = await crmService.updateDeal(id, updateData);
 

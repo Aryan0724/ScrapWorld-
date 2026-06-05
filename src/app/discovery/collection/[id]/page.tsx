@@ -41,9 +41,11 @@ interface Business {
     salesReadinessTier: string | null;
     reachabilityScore: number | null;
     contactabilityTier: string | null;
+    opportunityScore?: number | null;
   } | null;
   socialProfiles: Array<{ platform: string; url: string }>;
   opportunities: Array<{ serviceType: string }>;
+  segments?: string[];
 }
 
 interface CollectionDetails {
@@ -74,6 +76,16 @@ interface CollectionDetails {
   businesses: Business[];
   keywords?: string[];
   locations?: string[];
+  segments?: Array<{
+    segmentId: string;
+    name: string;
+    leadCount: number;
+    avgReachability: number;
+    avgAbilityToPay: string;
+    avgClosingProbability: number;
+    avgOpportunityScore: number;
+    recommendedOffer: string;
+  }>;
 }
 
 export default function CollectionDashboardPage({
@@ -93,6 +105,7 @@ export default function CollectionDashboardPage({
   const [tierFilter, setTierFilter] = useState('');
   const [readinessFilter, setReadinessFilter] = useState('');
   const [contactabilityFilter, setContactabilityFilter] = useState('');
+  const [segmentFilter, setSegmentFilter] = useState('');
 
   // Row action status
   const [actioningId, setActioningId] = useState<string | null>(null);
@@ -200,7 +213,7 @@ export default function CollectionDashboardPage({
   }
 
   // Filter leads client-side
-  const filteredBusinesses = collection.businesses?.filter((b) => {
+  let filteredBusinesses = collection.businesses?.filter((b) => {
     const matchesSearch =
       b.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       (b.industry && b.industry.toLowerCase().includes(searchQuery.toLowerCase()));
@@ -210,9 +223,17 @@ export default function CollectionDashboardPage({
       !readinessFilter || b.leadIntelligence?.salesReadinessTier === readinessFilter;
     const matchesContactability =
       !contactabilityFilter || b.leadIntelligence?.contactabilityTier === contactabilityFilter;
+    const matchesSegment = !segmentFilter || b.segments?.includes(segmentFilter);
 
-    return matchesSearch && matchesTier && matchesReadiness && matchesContactability;
+    return matchesSearch && matchesTier && matchesReadiness && matchesContactability && matchesSegment;
   }) || [];
+
+  // Sort by OpportunityScore DESC
+  filteredBusinesses.sort((a, b) => {
+    const scoreA = a.leadIntelligence?.opportunityScore || 0;
+    const scoreB = b.leadIntelligence?.opportunityScore || 0;
+    return scoreB - scoreA;
+  });
 
   const completionPercent = collection.completionPercent ?? 0;
   const statusColors =
@@ -387,6 +408,67 @@ export default function CollectionDashboardPage({
           </p>
         </div>
       </div>
+
+      {/* Opportunity Segments Panel */}
+      {collection.segments && collection.segments.length > 0 && (
+        <div className="p-6 bg-[#111113] border border-[#27272A] rounded-lg">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h2 className="text-lg font-bold text-[#FAFAFA]">Opportunity Segments</h2>
+              <p className="text-xs text-[#A1A1AA] mt-1">
+                Auto-generated sales opportunities based on data intelligence.
+              </p>
+            </div>
+            {segmentFilter && (
+              <button 
+                onClick={() => setSegmentFilter('')}
+                className="text-xs text-[#EF4444] hover:underline"
+              >
+                Clear Segment Filter
+              </button>
+            )}
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {collection.segments.map(seg => (
+              <div 
+                key={seg.segmentId} 
+                onClick={() => setSegmentFilter(seg.segmentId)}
+                className={`p-4 rounded-lg border cursor-pointer transition-colors ${segmentFilter === seg.segmentId ? 'bg-[#2563EB]/10 border-[#2563EB]' : 'bg-[#09090B] border-[#27272A] hover:border-[#3F3F46]'}`}
+              >
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="font-bold text-[#FAFAFA] text-sm max-w-[80%]">{seg.name}</h3>
+                  <span className="px-2 py-0.5 rounded-full bg-[#27272A] text-[#FAFAFA] text-[10px] font-mono">
+                    {seg.leadCount}
+                  </span>
+                </div>
+                <div className="space-y-1.5 text-[11px]">
+                  <div className="flex justify-between text-[#A1A1AA]">
+                    <span>Opp Score:</span>
+                    <span className="font-mono font-bold text-[#2563EB]">{seg.avgOpportunityScore || 0}/100</span>
+                  </div>
+                  <div className="flex justify-between text-[#A1A1AA]">
+                    <span>Reachability:</span>
+                    <span className="font-mono text-[#FAFAFA]">{seg.avgReachability}/100</span>
+                  </div>
+                  <div className="flex justify-between text-[#A1A1AA]">
+                    <span>Closing Prob:</span>
+                    <span className="font-mono text-[#FAFAFA]">{seg.avgClosingProbability}%</span>
+                  </div>
+                  <div className="flex justify-between text-[#A1A1AA]">
+                    <span>Ability to Pay:</span>
+                    <span className={`font-mono font-bold ${seg.avgAbilityToPay === 'HIGH' ? 'text-[#22C55E]' : seg.avgAbilityToPay === 'MEDIUM' ? 'text-yellow-500' : 'text-[#EF4444]'}`}>{seg.avgAbilityToPay}</span>
+                  </div>
+                </div>
+                <div className="mt-3 pt-2 border-t border-[#27272A]">
+                  <p className="text-[10px] text-[#A1A1AA] font-semibold uppercase">Recommend Pitch:</p>
+                  <p className="text-xs text-[#FAFAFA] font-bold mt-0.5 truncate">{seg.recommendedOffer}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Directory Section */}
       <div className="p-6 bg-[#111113] border border-[#27272A] rounded-lg">

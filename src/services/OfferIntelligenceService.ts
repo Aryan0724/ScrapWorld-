@@ -19,6 +19,7 @@ interface BusinessSignals {
   verifiedWebsite: string | null;
   ownerName: string | null;
   ownerLinkedIn: string | null;
+  ownerEmail: string | null;
   ownerConfidence: number | null;
   enterpriseFlag: boolean;
   franchiseFlag: boolean;
@@ -67,13 +68,13 @@ const INDUSTRY_OFFER_MAP: Record<string, { primary: string; secondary: string; r
     reason: 'Dental clinics convert heavily through online booking — every missed call is a lost patient.',
   },
   clinic: {
-    primary: 'Appointment Booking System',
-    secondary: 'Local SEO & Patient Reviews',
+    primary: 'Booking System',
+    secondary: 'Local SEO',
     reason: 'Medical clinics depend on trust signals and easy booking — weak digital presence means patients choose competitors.',
   },
   doctor: {
-    primary: 'Appointment Booking System',
-    secondary: 'Local SEO & Patient Reviews',
+    primary: 'Booking System',
+    secondary: 'Local SEO',
     reason: 'Patients search online before choosing a doctor — poor digital presence means lost consultations.',
   },
   hospital: {
@@ -83,13 +84,13 @@ const INDUSTRY_OFFER_MAP: Record<string, { primary: string; secondary: string; r
   },
   // Food & Beverage
   restaurant: {
-    primary: 'Website Redesign & Online Ordering',
+    primary: 'Website Redesign',
     secondary: 'Google Reviews Optimization',
     reason: 'Restaurants lose orders daily to competitors with better online presence and review counts.',
   },
   cafe: {
-    primary: 'Website Redesign & Online Ordering',
-    secondary: 'Instagram Growth & Content Strategy',
+    primary: 'Website Redesign',
+    secondary: 'Google Reviews Optimization',
     reason: 'Cafes live and die by social discovery — no online presence means invisible to new customers.',
   },
   bakery: {
@@ -99,8 +100,8 @@ const INDUSTRY_OFFER_MAP: Record<string, { primary: string; secondary: string; r
   },
   // Beauty & Wellness
   salon: {
-    primary: 'Instagram Funnel & Booking Automation',
-    secondary: 'WhatsApp Follow-up System',
+    primary: 'Instagram Funnel',
+    secondary: 'Booking Automation',
     reason: 'Salons with strong Instagram presence see 3x more walk-ins — a booking automation system closes the loop.',
   },
   spa: {
@@ -126,17 +127,17 @@ const INDUSTRY_OFFER_MAP: Record<string, { primary: string; secondary: string; r
   // Real Estate
   'real estate': {
     primary: 'Lead Capture System',
-    secondary: 'WhatsApp Automation & CRM',
+    secondary: 'WhatsApp Automation',
     reason: 'Real estate agents lose high-value leads to slow follow-up — automation qualifies and routes enquiries instantly.',
   },
   realtor: {
     primary: 'Lead Capture System',
-    secondary: 'WhatsApp Automation & CRM',
+    secondary: 'WhatsApp Automation',
     reason: 'Speed-to-lead is critical in real estate — automated follow-up captures deals competitors miss.',
   },
   property: {
     primary: 'Lead Capture System',
-    secondary: 'WhatsApp Automation & CRM',
+    secondary: 'WhatsApp Automation',
     reason: 'Property businesses with automated lead pipelines close significantly more deals.',
   },
   // Education
@@ -271,18 +272,21 @@ export class OfferIntelligenceService {
     if (business.ownerLinkedIn && (business.ownerConfidence ?? 0) >= 80) {
       preferredContactMethod = 'LinkedIn DM';
       contactMethodReason = 'Decision maker identified with LinkedIn profile — direct DM to owner has highest response rate.';
-    } else if (business.phone) {
-      const isClinic = (business.industry || '').toLowerCase().includes('clinic') ||
-        (business.industry || '').toLowerCase().includes('dentist') ||
-        (business.industry || '').toLowerCase().includes('doctor');
-      preferredContactMethod = isClinic ? 'WhatsApp (via clinic phone)' : 'WhatsApp / Phone Call';
-      contactMethodReason = 'Phone number available — WhatsApp is the fastest path to the owner in India.';
+    } else if (business.ownerEmail) {
+      preferredContactMethod = 'Owner Email';
+      contactMethodReason = 'Direct email to owner is highly effective for B2B outreach.';
     } else if (business.email) {
-      preferredContactMethod = 'Email';
-      contactMethodReason = 'No phone available — email outreach with a strong subject line referencing a specific problem is recommended.';
-    } else if (hasSocial) {
-      preferredContactMethod = 'Instagram / Facebook DM';
-      contactMethodReason = 'No direct contact info — social DM is the best available channel.';
+      preferredContactMethod = 'Business Email';
+      contactMethodReason = 'General business email available — outreach with a strong subject line referencing a specific problem is recommended.';
+    } else if (getInstagram(socials)) {
+      preferredContactMethod = 'Instagram DM';
+      contactMethodReason = 'Active Instagram presence — direct message is the best available channel.';
+    } else if (socials.some(p => p.platform === 'FACEBOOK')) {
+      preferredContactMethod = 'Facebook DM';
+      contactMethodReason = 'Active Facebook presence — direct message is the best available channel.';
+    } else if (business.phone) {
+      preferredContactMethod = 'WhatsApp / Phone Call';
+      contactMethodReason = 'Phone number available — WhatsApp or direct call is the fastest path.';
     } else {
       preferredContactMethod = 'Walk-in / Physical Visit';
       contactMethodReason = 'No digital contact info available — the business may only be reachable in person.';

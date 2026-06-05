@@ -90,6 +90,7 @@ export class AIService {
 Your goal is to transform raw business, website, and competitor data into highly actionable, evidence-based sales intelligence.
 You must output a JSON object containing the requested details.
 NEVER generate assumptions or generic advice that is not backed by facts in the business context.
+DO NOT generate any numerical scores.
 
 Output JSON structure:
 {
@@ -101,12 +102,11 @@ Output JSON structure:
     { "title": "Recommendation Title", "details": "Actionable steps to implement the fix." }
   ],
   "opportunities": [
-    { "title": "Opportunity Title", "serviceType": "WEBSITE|SEO|AUTOMATION|MARKETING|AI|SOFTWARE|BRANDING", "estimatedValue": 1500, "description": "Why this is an opportunity." }
+    { "title": "Opportunity Title", "serviceType": "WEBSITE|SEO|AUTOMATION|MARKETING|AI|SOFTWARE|BRANDING", "opportunityScore": 85, "description": "Why this is an opportunity." }
   ],
   "salesAngles": [
     { "channel": "EMAIL|LINKEDIN|CALL|DM", "hook": "Personalized hook/observation", "pitch": "The value proposition/pitch", "script": "Full message text or script" }
-  ],
-  "confidenceScore": 85
+  ]
 }
 
 Report Type Instructions:
@@ -184,7 +184,7 @@ ${context}
     if (business.opportunities && business.opportunities.length > 0) {
       lines.push(`\nSuggested Opportunities:`);
       business.opportunities.forEach((opp: any) => {
-        lines.push(`- [Score: ${opp.opportunityScore}] ${opp.title} (${opp.serviceType}) - Est Value: $${opp.estimatedValue}`);
+        lines.push(`- [Score: ${opp.opportunityScore}] ${opp.title} (${opp.serviceType})`);
         lines.push(`  Description: ${opp.description}`);
       });
     }
@@ -229,7 +229,7 @@ ${context}
       opportunities.push({
         title: 'Website Redesign & Conversion Optimization',
         serviceType: 'WEBSITE',
-        estimatedValue: 1500,
+        opportunityScore: 90,
         description: 'Upgrade the existing slow/unoptimized page to a modern SaaS-inspired conversion funnel.',
       });
     }
@@ -247,7 +247,7 @@ ${context}
       opportunities.push({
         title: 'SSL Security Setup',
         serviceType: 'WEBSITE',
-        estimatedValue: 300,
+        opportunityScore: 85,
         description: 'Secure the site to remove browser warnings and improve SEO trust signals.',
       });
     }
@@ -290,7 +290,7 @@ ${context}
       opportunities.push({
         title: 'Local SEO & Google Maps Visibility Campaign',
         serviceType: 'SEO',
-        estimatedValue: 1000,
+        opportunityScore: 80,
         description: 'Optimize Google Business Profile listing and trigger campaigns to close the review gap.',
       });
     }
@@ -340,7 +340,7 @@ Call to Action: "I can deploy a fix for this in under a day. Let me send over a 
       });
     } else {
       // FULL_ANALYSIS
-      summary = `${name} is a ${industry} practice based in ${city} with substantial digital growth opportunities. It currently holds a rating of ${rating}/5 across ${reviewCount} reviews. The core digital asset (website score: ${webScore}/100) lacks critical SSL security configurations and experiences severe load latencies. Local competitors currently dominate local search packs due to a review volume gap (competitors average ${avgCompetitorReviews} reviews). Standardizing SSL security, executing speed optimizations, and launching a local review campaign represents an estimated project value of $2,800.`;
+      summary = `${name} is a ${industry} practice based in ${city} with substantial digital growth opportunities. It currently holds a rating of ${rating}/5 across ${reviewCount} reviews. The core digital asset (website score: ${webScore}/100) lacks critical SSL security configurations and experiences severe load latencies. Local competitors currently dominate local search packs due to a review volume gap (competitors average ${avgCompetitorReviews} reviews). Standardizing SSL security, executing speed optimizations, and launching a local review campaign represents a high-confidence growth opportunity.`;
       
       salesAngles.push({
         channel: 'EMAIL',

@@ -10,19 +10,7 @@ const rejectedDomains = [
   'youtube.com', 'youtu.be', 'linktr.ee', 'x.com', 'twitter.com', 'tiktok.com'
 ];
 
-function getExpansionLocations(location: string): string[] {
-  const loc = location.toLowerCase();
-  if (loc.includes('delhi')) {
-    return ['Noida', 'Ghaziabad', 'Gurgaon', 'Faridabad', 'Greater Noida', 'Meerut'];
-  }
-  if (loc.includes('mumbai')) {
-    return ['Thane', 'Navi Mumbai', 'Kalyan', 'Vasai-Virar', 'Panvel'];
-  }
-  if (loc.includes('bangalore') || loc.includes('bengaluru')) {
-    return ['Whitefield', 'Electronic City', 'Yelahanka', 'Kengeri'];
-  }
-  return [location + ' North', location + ' South', location + ' East', location + ' West'];
-}
+import { getExpandedLocations } from '@/lib/location-expansion';
 
 export const gmapsWorker = new Worker(
   'gmaps-scrape',
@@ -75,7 +63,8 @@ export const gmapsWorker = new Worker(
     let businessesFailed = 0;
     let businessesAudited = 0;
 
-    const locationsList = [...primaryLocations];
+    const autoExpand = primaryLocations.length === 1;
+    const locationsList = getExpandedLocations(primaryLocations, autoExpand);
     const keywordsList = [...primaryKeywords];
     
     const stats: any = {
@@ -94,26 +83,9 @@ export const gmapsWorker = new Worker(
 
     try {
       while (!targetReached && !isSaturated) {
-        // If we ran out of primary locations, trigger expansion
         if (locationIndex >= locationsList.length) {
-          const expansions: string[] = [];
-          for (const pLoc of primaryLocations) {
-            const expList = getExpansionLocations(pLoc);
-            for (const exp of expList) {
-              if (!locationsList.includes(exp)) {
-                expansions.push(exp);
-              }
-            }
-          }
-
-          if (expansions.length === 0) {
-            console.log('No expansion locations found. Stopping search.');
-            break;
-          }
-
-          console.log(`Target not met (${currentLeads}/${target}). Expanding locations: ${expansions.join(', ')}`);
-          locationsList.push(...expansions);
-          for (const exp of expansions) stats.byLocation[exp] = 0;
+          console.log('Locations exhausted. Stopping search.');
+          break;
         }
 
         const currentLocation = locationsList[locationIndex];

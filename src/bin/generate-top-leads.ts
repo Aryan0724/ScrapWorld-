@@ -60,8 +60,8 @@ async function main() {
     console.log(`- Lead Tier:          ${lead.leadTier}`);
     console.log(`- Urgency Score:      ${lead.urgencyScore}/100`);
     console.log(`- Buyer Probability:  ${lead.buyerProbability}%`);
-    console.log(`- Revenue Potential:  $${lead.revenuePotential.toLocaleString()}`);
-    console.log(`- Estimated Deal Val: $${lead.estimatedDealValue.toLocaleString()}`);
+    console.log(`- Revenue Potential:  $${(lead.revenuePotential || 0).toLocaleString()}`);
+    console.log(`- Estimated Deal Val: $${(lead.estimatedDealValue || 0).toLocaleString()}`);
     console.log(`- Rec. Services:      ${recommendedServices}`);
     
     // Generate a Reason to Buy if empty

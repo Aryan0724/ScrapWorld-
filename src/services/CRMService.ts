@@ -50,12 +50,10 @@ export class CRMService {
   }
 
   /**
-   * Calculate adjusted win confidence: Average of Stage Probability + Buyer Probability
+   * Calculate adjusted win confidence: based on Stage Probability
    */
-  calculateWinConfidence(stageProbability: number, buyerProbability: number): number {
-    if (stageProbability === 100) return 100;
-    if (stageProbability === 0) return 0;
-    return Math.round((stageProbability + buyerProbability) / 2);
+  calculateWinConfidence(stageProbability: number): number {
+    return stageProbability;
   }
 
   /**
@@ -70,15 +68,13 @@ export class CRMService {
     const pipeline = await prisma.pipeline.findUnique({ where: { id: pipelineId } });
     if (!pipeline) throw new Error('Pipeline stage not found');
 
-    const leadIntel = await prisma.leadIntelligence.findUnique({ where: { businessId } });
-    const buyerProbability = leadIntel ? leadIntel.buyerProbability : 30;
     const stageProb = this.getStageProbability(pipeline.name);
-    const winConfidence = this.calculateWinConfidence(stageProb, buyerProbability);
+    const winConfidence = this.calculateWinConfidence(stageProb);
 
     const deal = await prisma.deal.create({
       data: {
         title,
-        value: value ?? (leadIntel ? leadIntel.estimatedDealValue : 1500.0),
+        value: value ?? null,
         probability: winConfidence,
         status: pipeline.name === 'WON' ? 'WON' : pipeline.name === 'LOST' ? 'LOST' : 'OPEN',
         business: { connect: { id: businessId } },
@@ -124,11 +120,9 @@ export class CRMService {
       if (!newPipeline) throw new Error('New pipeline stage not found');
 
       newStageName = newPipeline.name;
-      const leadIntel = await prisma.leadIntelligence.findUnique({ where: { businessId: existingDeal.businessId } });
-      const buyerProbability = leadIntel ? leadIntel.buyerProbability : 30;
       const stageProb = this.getStageProbability(newPipeline.name);
       
-      updatedProbability = this.calculateWinConfidence(stageProb, buyerProbability);
+      updatedProbability = this.calculateWinConfidence(stageProb);
       newStatus = newPipeline.name === 'WON' ? 'WON' : newPipeline.name === 'LOST' ? 'LOST' : 'OPEN';
     }
 
@@ -178,10 +172,10 @@ export class CRMService {
 
     const leadIntel = business.leadIntelligence;
     const dealTitle = `${business.name} - Sales Opportunity`;
-    const dealValue = leadIntel ? leadIntel.estimatedDealValue : 1500.0;
+    const dealValue = null;
 
     // 1. Create the Deal
-    const deal = await this.createDeal(businessId, newStage.id, dealTitle, dealValue);
+    const deal = await this.createDeal(businessId, newStage.id, dealTitle, dealValue ?? undefined);
 
     // 2. Create high priority follow-up task
     const taskDueDate = new Date();
@@ -190,7 +184,7 @@ export class CRMService {
     await this.createTask(
       businessId,
       `Schedule discovery call with ${business.name}`,
-      `Lead has score of ${leadIntel?.leadScore ?? 'N/A'} (Tier ${leadIntel?.leadTier ?? 'N/A'}) with a buyer probability of ${leadIntel?.buyerProbability ?? 'N/A'}%. Suggested outreach angle: ${leadIntel?.leadSummary || ''}`,
+      `Lead has score of ${leadIntel?.leadScore ?? 'N/A'} (Tier ${leadIntel?.leadTier ?? 'N/A'}) with a buying intent of ${leadIntel?.buyingIntent ?? 'N/A'}. Suggested outreach angle: ${leadIntel?.leadSummary || ''}`,
       TaskPriority.HIGH,
       taskDueDate
     );

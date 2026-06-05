@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { CollectionService } from '@/services/CollectionService';
 import prisma from '@/lib/prisma';
+import { SegmentationService } from '@/services/SegmentationService';
 
 export async function GET(
   request: Request,
@@ -71,6 +72,13 @@ export async function GET(
       saturationStatus = 'High Extraction';
     }
 
+    const segments = await SegmentationService.getCollectionSegments(collection.id);
+
+    const businessesWithSegments = businesses.map(b => ({
+      ...b,
+      segments: SegmentationService.getBusinessSegments(b)
+    }));
+
     const enriched = {
       ...collection,
       leadCount,
@@ -84,7 +92,8 @@ export async function GET(
       completionPercent,
       estimatedAvailable,
       saturationStatus,
-      businesses,
+      segments,
+      businesses: businessesWithSegments,
     };
 
     return NextResponse.json({

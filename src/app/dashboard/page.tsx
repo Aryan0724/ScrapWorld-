@@ -45,7 +45,7 @@ export default async function DashboardPage() {
 
   // Fetch Top 10 Leads
   const topLeads = await prisma.leadIntelligence.findMany({
-    orderBy: { leadPriorityRank: 'asc' },
+    orderBy: { opportunityScore: 'desc' },
     take: 10,
     include: {
       business: true,
@@ -152,8 +152,10 @@ export default async function DashboardPage() {
                     <th className="pb-2">Business Name</th>
                     <th className="pb-2 text-center">Score</th>
                     <th className="pb-2 text-center">Tier</th>
-                    <th className="pb-2 text-right">Deal Value</th>
-                    <th className="pb-2 text-center">Readiness</th>
+                    <th className="pb-2 text-center">Size</th>
+                    <th className="pb-2 text-center">ATP</th>
+                    <th className="pb-2 text-center">Reachability</th>
+                    <th className="pb-2 text-center">Closing Prob</th>
                     <th className="pb-2 text-right">Action</th>
                   </tr>
                 </thead>
@@ -172,16 +174,14 @@ export default async function DashboardPage() {
                           {lead.leadTier}
                         </span>
                       </td>
-                      <td className="py-3 text-right font-mono text-[#FAFAFA]">${lead.estimatedDealValue.toLocaleString()}</td>
+                      <td className="py-3 text-center text-[10px] font-bold text-[#FAFAFA]">{lead.businessSize || 'N/A'}</td>
                       <td className="py-3 text-center">
-                        <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
-                          lead.salesReadinessScore && lead.salesReadinessScore >= 80 ? 'bg-[#22C55E]/15 text-[#22C55E]' :
-                          lead.salesReadinessScore && lead.salesReadinessScore >= 60 ? 'bg-[#F59E0B]/15 text-[#F59E0B]' :
-                          'bg-[#EF4444]/15 text-[#EF4444]'
-                        }`}>
-                          {lead.salesReadinessScore ?? 'N/A'}/100
+                        <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${lead.abilityToPay === 'High' ? 'bg-[#22C55E]/15 text-[#22C55E]' : lead.abilityToPay === 'Medium' ? 'bg-yellow-500/15 text-yellow-500' : 'bg-[#EF4444]/15 text-[#EF4444]'}`}>
+                          {lead.abilityToPay || 'N/A'}
                         </span>
                       </td>
+                      <td className="py-3 text-center font-mono text-[#FAFAFA]">{lead.reachabilityScore ?? 'N/A'}/100</td>
+                      <td className="py-3 text-center font-mono text-[#FAFAFA]">{lead.closingProbability ?? 'N/A'}%</td>
                       <td className="py-3 text-right">
                         <Link
                           href={`/business/${lead.businessId}`}

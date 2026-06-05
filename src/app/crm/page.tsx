@@ -23,6 +23,8 @@ interface Deal {
   status: string;
   businessId: string;
   pipelineId: string;
+  outreachChannel: string | null;
+  outreachOutcome: string;
   business: {
     id: string;
     name: string;
@@ -172,6 +174,23 @@ export default function CRMPage() {
     }
   };
 
+  const handleUpdateOutreach = async (dealId: string, updates: any) => {
+    try {
+      setStages(prev => prev.map(s => ({
+        ...s,
+        deals: s.deals.map(d => d.id === dealId ? { ...d, ...updates } : d)
+      })));
+      await fetch(`/api/deals/${dealId}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(updates),
+      });
+    } catch (e) {
+      console.error(e);
+      fetchPipeline();
+    }
+  };
+
   if (loading) {
     return (
       <div className="flex flex-col items-center justify-center py-32 gap-4">
@@ -283,6 +302,38 @@ export default function CRMPage() {
                           <span className="flex items-center gap-0.5">
                             <Activity className="w-3 h-3 text-[#F59E0B]" /> R: {readiness}
                           </span>
+                        </div>
+
+                        {/* Outreach Tracking */}
+                        <div className="flex flex-col gap-2 pt-2 border-t border-[#17171a] mt-2">
+                          <div className="flex items-center justify-between text-[10px]">
+                            <span className="text-[#A1A1AA]">Channel</span>
+                            <select 
+                              className="bg-[#111113] border border-[#27272A] text-[#FAFAFA] rounded px-1 py-0.5 text-[9px] w-24"
+                              value={deal.outreachChannel || ''}
+                              onChange={(e) => handleUpdateOutreach(deal.id, { outreachChannel: e.target.value || null })}
+                            >
+                              <option value="">Select Channel</option>
+                              <option value="EMAIL">Email</option>
+                              <option value="WHATSAPP">WhatsApp</option>
+                              <option value="PHONE">Phone</option>
+                              <option value="LINKEDIN">LinkedIn</option>
+                              <option value="INSTAGRAM">Instagram</option>
+                            </select>
+                          </div>
+                          <div className="flex items-center justify-between text-[10px]">
+                            <span className="text-[#A1A1AA]">Outcome</span>
+                            <select 
+                              className="bg-[#111113] border border-[#27272A] text-[#FAFAFA] rounded px-1 py-0.5 text-[9px] w-24"
+                              value={deal.outreachOutcome || 'NONE'}
+                              onChange={(e) => handleUpdateOutreach(deal.id, { outreachOutcome: e.target.value })}
+                            >
+                              <option value="NONE">None</option>
+                              <option value="NO_RESPONSE">No Response</option>
+                              <option value="INTERESTED">Interested</option>
+                              <option value="NOT_INTERESTED">Not Interested</option>
+                            </select>
+                          </div>
                         </div>
                       </div>
                     );

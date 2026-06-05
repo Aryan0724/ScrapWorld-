@@ -133,6 +133,8 @@ export async function GET(request: Request) {
       'Sales Readiness Tier',
       'Reachability Score',
       'Contactability Tier',
+      'Buying Intent',
+      'Sales Confidence',
       'Owner Name',
       'Owner Role',
       'Owner Email',
@@ -150,7 +152,7 @@ export async function GET(request: Request) {
       headers.unshift('Deal Title', 'Deal Value', 'Deal Status', 'Pipeline Stage', 'Expected Close Date');
     }
 
-    let csvLines = [headers.join(',')];
+    const allRows = [headers];
 
     for (const item of data) {
       const biz = type === 'crm' ? item : item;
@@ -191,6 +193,8 @@ export async function GET(request: Request) {
         biz.leadIntelligence?.salesReadinessTier,
         biz.leadIntelligence?.reachabilityScore,
         biz.leadIntelligence?.contactabilityTier,
+        biz.leadIntelligence?.buyingIntent,
+        biz.leadIntelligence?.salesConfidence,
         biz.ownerName,
         biz.ownerRole,
         biz.ownerEmail,
@@ -204,10 +208,25 @@ export async function GET(request: Request) {
         biz.opportunities?.length || 0
       );
 
-      csvLines.push(lineValues.map(escapeCSVValue).join(','));
+      allRows.push(lineValues);
     }
 
-    const csvContent = csvLines.join('\n');
+    if (format === 'xlsx') {
+      const xlsx = await import('xlsx');
+      const wb = xlsx.utils.book_new();
+      const ws = xlsx.utils.aoa_to_sheet(allRows);
+      xlsx.utils.book_append_sheet(wb, ws, 'Leads');
+      const buf = xlsx.write(wb, { type: 'buffer', bookType: 'xlsx' });
+      return new NextResponse(buf, {
+        headers: {
+          'Content-Type': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+          'Content-Disposition': `attachment; filename="${filename}.xlsx"`,
+        },
+      });
+    }
+
+    // CSV format output
+    const csvContent = allRows.map(row => row.map(escapeCSVValue).join(',')).join('\n');
     return new NextResponse(csvContent, {
       headers: {
         'Content-Type': 'text/csv; charset=utf-8',

@@ -276,6 +276,82 @@ export default function BusinessDossierClient({ business }: BusinessDossierClien
         </div>
       )}
 
+      {/* Outreach Workspace */}
+      <div className="p-6 bg-[#111113] border border-[#27272A] rounded-lg">
+        <h2 className="text-sm font-bold text-[#A1A1AA] uppercase tracking-wider mb-4 flex items-center gap-1.5">
+          <Send className="w-4 h-4 text-[#2563EB]" /> Outreach Workspace
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {/* WhatsApp Pitch */}
+          <div className="p-4 bg-[#09090B] border border-[#27272A] rounded">
+            <p className="text-[10px] font-bold text-[#22C55E] uppercase mb-2">WhatsApp Pitch</p>
+            <p className="text-xs text-[#FAFAFA] leading-relaxed min-h-[80px]">
+              {business.phone ? (
+                intel.firstTouchStrategy ||
+                `Hi, I noticed ${business.name} and wanted to share a quick observation about your online presence that could bring in more customers. Is this the right number to connect with the owner?`
+              ) : (
+                <span className="text-[#EF4444]">No phone number available for WhatsApp outreach.</span>
+              )}
+            </p>
+            <button
+              onClick={() => copyPitch('whatsapp',
+                intel.firstTouchStrategy ||
+                `Hi, I noticed ${business.name} and wanted to share a quick observation about your online presence that could bring in more customers. Is this the right number to connect with the owner?`
+              )}
+              disabled={!business.phone}
+              className="mt-3 w-full py-1.5 bg-[#22C55E]/10 hover:bg-[#22C55E]/20 disabled:opacity-40 border border-[#22C55E]/30 text-[#22C55E] text-xs font-bold rounded flex items-center justify-center gap-1.5 transition-colors"
+            >
+              {copiedPitch === 'whatsapp' ? <Check className="w-3 h-3" /> : <Copy className="w-3 h-3" />}
+              {copiedPitch === 'whatsapp' ? 'Copied!' : 'Copy WhatsApp Pitch'}
+            </button>
+          </div>
+
+          {/* Email Pitch */}
+          <div className="p-4 bg-[#09090B] border border-[#27272A] rounded">
+            <p className="text-[10px] font-bold text-[#2563EB] uppercase mb-2">Email Pitch</p>
+            <p className="text-xs text-[#FAFAFA] leading-relaxed min-h-[80px]">
+              {business.email ? (
+                `Subject: Quick observation about ${business.name}'s online presence\n\nHi${business.ownerName ? ` ${business.ownerName.split(' ')[0]}` : ''},\n\nI came across ${business.name} while researching ${business.industry || 'businesses'} in ${business.city || 'Delhi'}. I noticed ${intel.primaryOffer ? `an opportunity to help with ${intel.primaryOffer}` : 'a few improvements that could drive more leads your way'}.\n\nWorth a 10-minute call to explore?\n\n— [Your Name]`
+              ) : (
+                <span className="text-[#EF4444]">No email address available.</span>
+              )}
+            </p>
+            <button
+              onClick={() => copyPitch('email',
+                `Subject: Quick observation about ${business.name}'s online presence\n\nHi${business.ownerName ? ` ${business.ownerName.split(' ')[0]}` : ''},\n\nI came across ${business.name} while researching ${business.industry || 'businesses'} in ${business.city || 'Delhi'}. I noticed ${intel.primaryOffer ? `an opportunity to help with ${intel.primaryOffer}` : 'a few improvements that could drive more leads your way'}.\n\nWorth a 10-minute call to explore?\n\n— [Your Name]`
+              )}
+              disabled={!business.email}
+              className="mt-3 w-full py-1.5 bg-[#2563EB]/10 hover:bg-[#2563EB]/20 disabled:opacity-40 border border-[#2563EB]/30 text-[#2563EB] text-xs font-bold rounded flex items-center justify-center gap-1.5 transition-colors"
+            >
+              {copiedPitch === 'email' ? <Check className="w-3 h-3" /> : <Copy className="w-3 h-3" />}
+              {copiedPitch === 'email' ? 'Copied!' : 'Copy Email Pitch'}
+            </button>
+          </div>
+
+          {/* CRM Action */}
+          <div className="p-4 bg-[#09090B] border border-[#27272A] rounded flex flex-col justify-between">
+            <div>
+              <p className="text-[10px] font-bold text-[#F59E0B] uppercase mb-2">CRM Action</p>
+              <p className="text-xs text-[#FAFAFA] leading-relaxed">
+                Move this lead into your active CRM pipeline. A follow-up task and deal record will be created automatically.
+              </p>
+            </div>
+            <div className="space-y-2 mt-4">
+              <button
+                onClick={triggerCreateDeal}
+                disabled={actionLoading}
+                className="w-full py-2 bg-[#22C55E] hover:bg-[#22C55E]/80 disabled:opacity-50 text-black text-xs font-bold rounded flex items-center justify-center gap-1.5 transition-colors"
+              >
+                <Briefcase className="w-3.5 h-3.5" /> Move to CRM / Create Deal
+              </button>
+              {actionMessage && (
+                <p className="text-[11px] text-[#22C55E] font-semibold">{actionMessage}</p>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Grid: 360 Overview Cards */}
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         {/* Lead Intelligence Card */}
@@ -692,81 +768,7 @@ export default function BusinessDossierClient({ business }: BusinessDossierClien
         </div>
       </div>
 
-      {/* Outreach Workspace */}
-      <div className="p-6 bg-[#111113] border border-[#27272A] rounded-lg">
-        <h2 className="text-sm font-bold text-[#A1A1AA] uppercase tracking-wider mb-4 flex items-center gap-1.5">
-          <Send className="w-4 h-4 text-[#2563EB]" /> Outreach Workspace
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {/* WhatsApp Pitch */}
-          <div className="p-4 bg-[#09090B] border border-[#27272A] rounded">
-            <p className="text-[10px] font-bold text-[#22C55E] uppercase mb-2">WhatsApp Pitch</p>
-            <p className="text-xs text-[#FAFAFA] leading-relaxed min-h-[80px]">
-              {business.phone ? (
-                intel.firstTouchStrategy ||
-                `Hi, I noticed ${business.name} and wanted to share a quick observation about your online presence that could bring in more customers. Is this the right number to connect with the owner?`
-              ) : (
-                <span className="text-[#EF4444]">No phone number available for WhatsApp outreach.</span>
-              )}
-            </p>
-            <button
-              onClick={() => copyPitch('whatsapp',
-                intel.firstTouchStrategy ||
-                `Hi, I noticed ${business.name} and wanted to share a quick observation about your online presence that could bring in more customers. Is this the right number to connect with the owner?`
-              )}
-              disabled={!business.phone}
-              className="mt-3 w-full py-1.5 bg-[#22C55E]/10 hover:bg-[#22C55E]/20 disabled:opacity-40 border border-[#22C55E]/30 text-[#22C55E] text-xs font-bold rounded flex items-center justify-center gap-1.5 transition-colors"
-            >
-              {copiedPitch === 'whatsapp' ? <Check className="w-3 h-3" /> : <Copy className="w-3 h-3" />}
-              {copiedPitch === 'whatsapp' ? 'Copied!' : 'Copy WhatsApp Pitch'}
-            </button>
-          </div>
 
-          {/* Email Pitch */}
-          <div className="p-4 bg-[#09090B] border border-[#27272A] rounded">
-            <p className="text-[10px] font-bold text-[#2563EB] uppercase mb-2">Email Pitch</p>
-            <p className="text-xs text-[#FAFAFA] leading-relaxed min-h-[80px]">
-              {business.email ? (
-                `Subject: Quick observation about ${business.name}'s online presence\n\nHi${business.ownerName ? ` ${business.ownerName.split(' ')[0]}` : ''},\n\nI came across ${business.name} while researching ${business.industry || 'businesses'} in ${business.city || 'Delhi'}. I noticed ${intel.primaryOffer ? `an opportunity to help with ${intel.primaryOffer}` : 'a few improvements that could drive more leads your way'}.\n\nWorth a 10-minute call to explore?\n\n— [Your Name]`
-              ) : (
-                <span className="text-[#EF4444]">No email address available.</span>
-              )}
-            </p>
-            <button
-              onClick={() => copyPitch('email',
-                `Subject: Quick observation about ${business.name}'s online presence\n\nHi${business.ownerName ? ` ${business.ownerName.split(' ')[0]}` : ''},\n\nI came across ${business.name} while researching ${business.industry || 'businesses'} in ${business.city || 'Delhi'}. I noticed ${intel.primaryOffer ? `an opportunity to help with ${intel.primaryOffer}` : 'a few improvements that could drive more leads your way'}.\n\nWorth a 10-minute call to explore?\n\n— [Your Name]`
-              )}
-              disabled={!business.email}
-              className="mt-3 w-full py-1.5 bg-[#2563EB]/10 hover:bg-[#2563EB]/20 disabled:opacity-40 border border-[#2563EB]/30 text-[#2563EB] text-xs font-bold rounded flex items-center justify-center gap-1.5 transition-colors"
-            >
-              {copiedPitch === 'email' ? <Check className="w-3 h-3" /> : <Copy className="w-3 h-3" />}
-              {copiedPitch === 'email' ? 'Copied!' : 'Copy Email Pitch'}
-            </button>
-          </div>
-
-          {/* CRM Action */}
-          <div className="p-4 bg-[#09090B] border border-[#27272A] rounded flex flex-col justify-between">
-            <div>
-              <p className="text-[10px] font-bold text-[#F59E0B] uppercase mb-2">CRM Action</p>
-              <p className="text-xs text-[#FAFAFA] leading-relaxed">
-                Move this lead into your active CRM pipeline. A follow-up task and deal record will be created automatically.
-              </p>
-            </div>
-            <div className="space-y-2 mt-4">
-              <button
-                onClick={triggerCreateDeal}
-                disabled={actionLoading}
-                className="w-full py-2 bg-[#22C55E] hover:bg-[#22C55E]/80 disabled:opacity-50 text-black text-xs font-bold rounded flex items-center justify-center gap-1.5 transition-colors"
-              >
-                <Briefcase className="w-3.5 h-3.5" /> Move to CRM / Create Deal
-              </button>
-              {actionMessage && (
-                <p className="text-[11px] text-[#22C55E] font-semibold">{actionMessage}</p>
-              )}
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Create Task Form */}
         <div className="lg:col-span-1 p-6 bg-[#111113] border border-[#27272A] rounded-lg">

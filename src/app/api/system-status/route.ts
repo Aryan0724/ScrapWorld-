@@ -28,20 +28,23 @@ export async function GET() {
       dbStatus = 'Error';
     }
 
-    // 2. Redis Check
     let redisStatus = 'Disconnected';
     try {
-      const ping = await redisConnection.ping();
+      const pingPromise = redisConnection.ping();
+      const timeoutPromise = new Promise((_, reject) => setTimeout(() => reject(new Error('Redis ping timeout')), 2000));
+      const ping = await Promise.race([pingPromise, timeoutPromise]);
+      
       if (ping === 'PONG') {
         redisStatus = 'Connected';
       }
-    } catch (e) {
+    } catch (e: any) {
+      console.error('Redis Ping Error:', e.message);
       redisStatus = 'Error';
     }
 
     // 3. Queue counts
     const getQueueCounts = async (queue: any) => {
-      if (!queue) return { waiting: 0, active: 0, completed: 0, failed: 0, total: 0 };
+      if (!queue || redisStatus !== 'Connected') return { waiting: 0, active: 0, completed: 0, failed: 0, total: 0 };
       try {
         const [waiting, active, completed, failed] = await Promise.all([
           queue.getWaitingCount(),

@@ -17,6 +17,8 @@ import {
   Radio,
   Loader2,
   Server,
+  Target,
+  BarChart2,
 } from 'lucide-react';
 
 interface SystemStatusData {
@@ -67,12 +69,14 @@ export default function SidebarAndStatus({ children }: { children: React.ReactNo
 
   const navItems = [
     { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
+    { name: 'Today', href: '/today', icon: Target },
     { name: 'Collections', href: '/discovery', icon: Folder },
     { name: 'Top Leads', href: '/leads', icon: TrendingUp },
     { name: 'Businesses', href: '/businesses', icon: Building2 },
     { name: 'Opportunities', href: '/opportunities', icon: Coins },
     { name: 'Audits', href: '/audits', icon: ShieldCheck },
     { name: 'CRM', href: '/crm', icon: Columns },
+    { name: 'Performance', href: '/crm/performance', icon: BarChart2 },
     { name: 'Tasks', href: '/tasks', icon: CheckSquare },
     { name: 'Settings', href: '/settings', icon: Settings },
   ];

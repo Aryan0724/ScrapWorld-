@@ -1,5 +1,5 @@
 datasource db {
-  provider = "postgresql"
+  provider  = "postgresql"
 }
 
 generator client {
@@ -8,11 +8,29 @@ generator client {
 
 enum BusinessStatus {
   NEW
-  QUALIFIED
+  CONTACTING
   CONTACTED
+  REPLIED
+  MEETING
+  PROPOSAL
+  WON
+  LOST
+  SKIPPED
+}
+
+enum OutreachOutcome {
+  NONE
+  NO_RESPONSE
   INTERESTED
-  CUSTOMER
-  ARCHIVED
+  NOT_INTERESTED
+}
+
+enum OutreachChannel {
+  EMAIL
+  WHATSAPP
+  PHONE
+  LINKEDIN
+  INSTAGRAM
 }
 
 enum Severity {
@@ -287,17 +305,20 @@ model LeadIntelligence {
   leadScore          Int      @map("lead_score")
   leadTier           String   @map("lead_tier")
   urgencyScore       Int      @map("urgency_score")
-  buyerProbability   Float    @map("buyer_probability")
   reasonToBuyScore   Int      @map("reason_to_buy_score")
-  revenuePotential   Float    @map("revenue_potential")
-  estimatedDealValue Float    @map("estimated_deal_value")
   leadSummary        String?  @map("lead_summary")
   leadPriorityRank   Int?     @map("lead_priority_rank")
   salesReadinessScore Int?     @map("sales_readiness_score")
   salesReadinessTier  String?  @map("sales_readiness_tier")
   reachabilityScore   Int?     @map("reachability_score")
   contactabilityTier  String?  @map("contactability_tier")
-  closingProbability  Int?     @map("closing_probability")
+  buyingIntent        String?  @map("buying_intent")
+  salesConfidence     String?  @map("sales_confidence")
+  opportunityScore    Int?     @map("opportunity_score")
+  buyerProbability    Float?   @map("buyer_probability")
+  closingProbability  Float?   @map("closing_probability")
+  revenuePotential    Float?   @map("revenue_potential")
+  estimatedDealValue  Float?   @map("estimated_deal_value")
   lastCalculatedAt   DateTime @default(now()) @map("last_calculated_at")
   businessSize       String?  @map("business_size")
   abilityToPay       String?  @map("ability_to_pay")
@@ -323,8 +344,8 @@ model Opportunity {
   description      String?
   serviceType      ServiceType       @map("service_type")
   priority         TaskPriority      @default(MEDIUM)
-  estimatedValue   Float?            @map("estimated_value")
   opportunityScore Int?              @map("opportunity_score")
+  estimatedValue   Float?            @map("estimated_value")
   status           OpportunityStatus @default(OPEN)
   createdAt        DateTime          @default(now()) @map("created_at")
   updatedAt        DateTime          @updatedAt @map("updated_at")
@@ -393,6 +414,8 @@ model Deal {
   probability       Float?
   expectedCloseDate DateTime? @map("expected_close_date")
   status            String    @default("OPEN")
+  outreachChannel   OutreachChannel? @map("outreach_channel")
+  outreachOutcome   OutreachOutcome  @default(NONE) @map("outreach_outcome")
   createdAt         DateTime  @default(now()) @map("created_at")
   updatedAt         DateTime  @updatedAt @map("updated_at")
 

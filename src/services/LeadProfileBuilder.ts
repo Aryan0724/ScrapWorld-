@@ -5,10 +5,8 @@ export interface FullLeadDetails {
   leadScore: number;
   leadTier: string;
   urgencyScore: number;
-  buyerProbability: number;
-  closingProbability: number | null;
-  revenuePotential: number;
-  estimatedDealValue: number;
+  buyingIntent: string | null;
+  salesConfidence: string | null;
   leadSummary: string | null;
   leadPriorityRank: number | null;
   salesReadinessScore: number | null;
@@ -114,10 +112,9 @@ export class LeadProfileBuilder {
     doc += `4. COMPETITIVE LANDSCAPE\n`;
     doc += `   - Competitive Gap: ${competitorsText}`;
 
-    doc += `5. REVENUE OPPORTUNITIES\n`;
+    doc += `5. OPPORTUNITIES\n`;
     doc += `   - Rec. Services:   ${services}\n`;
-    doc += `   - Est. Deal Value: $${lead.estimatedDealValue.toLocaleString()}\n`;
-    doc += `   - Est. LTV Potential: $${lead.revenuePotential.toLocaleString()}\n\n`;
+    doc += `   - Buying Intent:   ${lead.buyingIntent ?? 'Unknown'}\n\n`;
 
     doc += `6. SALES SUITABILITY\n`;
     doc += `   - Sales Readiness: ${lead.salesReadinessScore ?? 0}/100 (Tier: ${lead.salesReadinessTier ?? 'D'})\n`;
@@ -125,8 +122,7 @@ export class LeadProfileBuilder {
     doc += `   - Enterprise Brand: ${biz.enterpriseFlag} | Franchise Chain: ${biz.franchiseFlag}\n\n`;
 
     doc += `7. CLOSING ANALYSIS\n`;
-    doc += `   - Buyer Probability:   ${lead.buyerProbability}%\n`;
-    doc += `   - Closing Probability: ${lead.closingProbability ?? 0}%\n`;
+    doc += `   - Sales Confidence:    ${lead.salesConfidence ?? 'Unknown'}\n`;
     doc += `   - Reachability Score:  ${lead.reachabilityScore ?? 0}/100\n`;
     doc += `   - Best Contact Method: ${bestContactMethod}\n`;
     doc += `   - Missing Information: ${missingInfoText}\n\n`;

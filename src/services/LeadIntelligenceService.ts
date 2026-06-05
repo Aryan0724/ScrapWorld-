@@ -46,6 +46,26 @@ export class LeadIntelligenceService {
 
     const { websiteData, opportunities, analyses, aiReports } = business;
 
+    const EXCLUDED_INDUSTRIES = [
+      'seo agency', 'seo agencies', 'digital marketing agency', 'digital marketing agencies',
+      'web design agency', 'web design agencies', 'software company', 'software companies',
+      'it services', 'lead generation agency', 'lead generation agencies',
+      'branding agency', 'branding agencies', 'performance marketing agency', 'performance marketing agencies'
+    ];
+
+    let isExcluded = business.excludedFromOutreach;
+    if (business.industry && !isExcluded) {
+      const ind = business.industry.toLowerCase();
+      if (EXCLUDED_INDUSTRIES.some(ex => ind.includes(ex))) {
+        await prisma.business.update({
+          where: { id: businessId },
+          data: { excludedFromOutreach: true }
+        });
+        isExcluded = true;
+        business.excludedFromOutreach = true;
+      }
+    }
+
     // 1. Need Score (25% in Sales Readiness)
     let needScore = 10;
     if (!business.verifiedWebsite) {
@@ -133,55 +153,20 @@ export class LeadIntelligenceService {
     else if (salesReadinessScore >= 70) salesReadinessTier = 'B';
     else if (salesReadinessScore >= 60) salesReadinessTier = 'C';
 
-    // 8. Closing Probability (0-100)
-    let closingProbPoints = 0;
-    if (business.ownerName && (business.ownerConfidence ?? 0) >= 75) {
-      closingProbPoints += 30;
-    }
-    if (business.phone) {
-      closingProbPoints += 20;
-    }
-    if (business.email) {
-      closingProbPoints += 20;
-    }
-    if (business.verifiedWebsite && (business.websiteConfidence ?? 0) >= 80) {
-      closingProbPoints += 20;
-    }
-    if (business.socialProfiles && business.socialProfiles.length > 0) {
-      closingProbPoints += 10;
-    }
-    if ((business.reviewCount ?? 0) >= 50 || (business.rating ?? 0) >= 4.2) {
-      closingProbPoints += 10;
-    }
-    const closingProbability = Math.min(100, closingProbPoints);
-
-    // 9. Buyer Probability (Range 20-95, kept for compatibility/dossier purposes)
-    let buyerProbability = 20;
-    if (reviewCount >= 500) buyerProbability += 25;
-    else if (reviewCount >= 200) buyerProbability += 20;
-    else if (reviewCount >= 50) buyerProbability += 15;
-    else if (reviewCount >= 10) buyerProbability += 10;
-
-    if (!business.verifiedWebsite) {
-      buyerProbability += 25;
-    } else if (websiteData && (websiteData.overallScore ?? 100) < 50) {
-      buyerProbability += 15;
+    // 8. Sales Confidence
+    let salesConfidence = 'Low';
+    if (salesReadinessScore >= 80) {
+      salesConfidence = 'High';
+    } else if (salesReadinessScore >= 50) {
+      salesConfidence = 'Medium';
     }
 
-    if (business.email) buyerProbability += 10;
-    if (business.phone) buyerProbability += 10;
-    if (business.ownerName && (business.ownerConfidence ?? 0) >= 75) buyerProbability += 15;
-    if ((business.rating ?? 0) >= 4.5) buyerProbability += 10;
-    if (business.enterpriseFlag) buyerProbability -= 40;
-    if (business.franchiseFlag) buyerProbability -= 20;
-    buyerProbability = Math.max(20, Math.min(95, buyerProbability));
-
-    // 10. Revenue Potential & Estimated Deal Value
-    let revenuePotential = 1500.0;
-    let estimatedDealValue = 1500.0;
-    if (opportunities && opportunities.length > 0) {
-      revenuePotential = opportunities.reduce((acc, curr) => acc + (curr.estimatedValue ?? 0), 0);
-      estimatedDealValue = Math.max(...opportunities.map(o => o.estimatedValue ?? 0));
+    // 9. Buying Intent
+    let buyingIntent = 'Cold';
+    if (urgencyScore >= 80) {
+      buyingIntent = 'Hot';
+    } else if (urgencyScore >= 40 || competitorGap >= 50) {
+      buyingIntent = 'Warm';
     }
 
     // 11. V4.5 Offer Intelligence
@@ -196,6 +181,7 @@ export class LeadIntelligenceService {
       verifiedWebsite: business.verifiedWebsite,
       ownerName: business.ownerName,
       ownerLinkedIn: business.ownerLinkedIn,
+      ownerEmail: (business as any).ownerEmail || null,
       ownerConfidence: business.ownerConfidence,
       enterpriseFlag: business.enterpriseFlag,
       franchiseFlag: business.franchiseFlag,
@@ -221,15 +207,9 @@ export class LeadIntelligenceService {
           leadScore: 5,
           leadTier: 'D',
           urgencyScore: 0,
-          buyerProbability: 0,
+          buyingIntent: 'Cold',
+          salesConfidence: 'Low',
           reasonToBuyScore: 0,
-          revenuePotential: 0,
-          estimatedDealValue: 0,
-          salesReadinessScore: 0,
-          salesReadinessTier: 'D',
-          reachabilityScore: 0,
-          contactabilityTier: 'NONE',
-          closingProbability: 0,
         },
       });
       return result;
@@ -260,6 +240,22 @@ export class LeadIntelligenceService {
     else if (leadScore >= 60) leadTier = 'B';
     else if (leadScore >= 40) leadTier = 'C';
 
+    let socialSignalsScore = 0;
+    if (business.socialProfiles?.length > 0) {
+      socialSignalsScore = 30;
+      if (business.socialProfiles.some(p => p.platform === 'INSTAGRAM')) socialSignalsScore += 20;
+      if (business.socialProfiles.some(p => (p.followers ?? 0) >= 1000 || (p.followersEstimate ?? 0) >= 1000)) socialSignalsScore += 50;
+      socialSignalsScore = Math.min(100, socialSignalsScore);
+    }
+
+    const opportunityScore = Math.round(
+      (needScore * 0.30) +
+      (reachabilityScore * 0.25) +
+      (abilityToPay * 0.20) +
+      (competitorGap * 0.15) +
+      (socialSignalsScore * 0.10)
+    );
+
     const reasonToBuyScore = Math.round((needScore + competitorGap) / 2);
     const fullAnalysisReport = aiReports.find(r => r.reportType === 'FULL_ANALYSIS');
     const leadSummary = fullAnalysisReport?.summary || 
@@ -276,16 +272,15 @@ export class LeadIntelligenceService {
         leadScore,
         leadTier,
         urgencyScore,
-        buyerProbability,
+        buyingIntent,
+        salesConfidence,
         reasonToBuyScore,
-        revenuePotential,
-        estimatedDealValue,
         leadSummary,
         salesReadinessScore,
         salesReadinessTier,
         reachabilityScore,
         contactabilityTier,
-        closingProbability,
+        opportunityScore,
         lastCalculatedAt: new Date(),
         // V4.5 Offer Intelligence fields
         businessSize: offerResult.businessSize,
@@ -306,16 +301,15 @@ export class LeadIntelligenceService {
         leadScore,
         leadTier,
         urgencyScore,
-        buyerProbability,
+        buyingIntent,
+        salesConfidence,
         reasonToBuyScore,
-        revenuePotential,
-        estimatedDealValue,
         leadSummary,
         salesReadinessScore,
         salesReadinessTier,
         reachabilityScore,
         contactabilityTier,
-        closingProbability,
+        opportunityScore,
         // V4.5 Offer Intelligence fields
         businessSize: offerResult.businessSize,
         abilityToPay: offerResult.abilityToPay,
